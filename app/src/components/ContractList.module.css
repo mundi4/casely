@@ -1,0 +1,46 @@
+.viewcode {
+	font-family: "Consolas", monospace;
+}
+
+.list {
+	border: calc(0.0625rem * var(--mantine-scale)) solid var(--mantine-color-gray-3);
+}
+
+.listItem {
+	display: grid;
+	grid-template-areas:
+		"status title metadata"
+		"status content metadata";
+    grid-template-columns: 32px auto 120px;
+	grid-template-rows: repeat(2, auto);
+}
+
+.listItem:not(:last-child) {
+	border-bottom: calc(0.0625rem * var(--mantine-scale)) solid var(--mantine-color-gray-3);
+}
+
+.status {
+    grid-area: status;
+	min-width: 22px;
+}
+
+.statusIcon {
+	min-width: unset;
+	min-height: unset;
+	width: unset;
+	height: unset;
+}
+
+.title {
+    grid-area: title;
+    font-weight: 600;
+}
+
+.content {
+    grid-area: content;
+}
+
+.metadata {
+    grid-area: metadata;
+    text-align: right;
+}

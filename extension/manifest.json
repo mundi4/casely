@@ -1,0 +1,14 @@
+{
+	"manifest_version": 3,
+	"name": "AccessTokenSnifferForCasely",
+	"version": "0.1.0",
+	"description": "Totally legal stuff",
+	"background": { "service_worker": "background.js", "type": "module" },
+	"content_scripts": [
+		{
+			"matches": ["__REPLACE_ME_ORIGIN__/*", "http://localhost:8000/*"],
+			"js": ["content.js"],
+			"run_at": "document_start"
+		}
+	]
+}

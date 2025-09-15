@@ -1,0 +1,25 @@
+{
+	"name": "casely",
+	"private": true,
+	"workspaces": [
+		"shared",
+		"extension",
+		"app",
+		"mock"
+	],
+	"type": "module",
+	"scripts": {
+		"build": "node scripts/build-all.ts",
+		"dev:mock": "npm run dev -w mock",
+		"dev:app": "npm run dev -w app",
+		"dev:server": "python3 -m server.server",
+		"kill-servers": "lsof -ti:8000 | xargs kill -9 2>/dev/null || true; lsof -ti:8080 | xargs kill -9 2>/dev/null || true"
+	},
+	"devDependencies": {
+		"@types/archiver": "^6.0.3",
+		"concurrently": "^9.2.1"
+	},
+	"dependencies": {
+		"zustand": "^5.0.8"
+	}
+}

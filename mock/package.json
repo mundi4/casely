@@ -1,0 +1,14 @@
+{
+	"name": "@casely/mock",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "node server.mjs",
+		"clean": "exit 0",
+		"build": "exit 0"
+	},
+	"dependencies": {
+		"express": "^4.19.2",
+		"cors": "^2.8.5"
+	}
+}
