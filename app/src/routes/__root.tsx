@@ -15,7 +15,7 @@ function RootLayout() {
                 <AppShell.Header withBorder>
                     <AppBar />
                 </AppShell.Header>
-                <AppShell.Main style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', minHeight: '80vh' }}>
+                <AppShell.Main>
                     <Outlet />
                 </AppShell.Main>
             </AppShell>

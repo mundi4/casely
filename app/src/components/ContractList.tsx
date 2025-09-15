@@ -6,10 +6,9 @@ import { ReviewersInline } from "./ReviewersInline";
 import { IconCheck, IconCircleCheck, IconCircleDot, IconSearch, IconSelector } from "@tabler/icons-react";
 import { useState } from "react";
 import type { Contract } from "../types";
+import { LinkAnchor } from "./LinkAnchor";
 
 type ContractListProps = {
-
-
 
 };
 
@@ -32,9 +31,9 @@ function ContractListItem({ contract }: { contract: Contract }) {
         <Box key={contract.id} className={classes.listItem} p="sm">
             <div className={classes.status}>{StatusIcon}</div>
             <div className={classes.title}>
-                <Anchor href={`/contracts/${contract.id}`} fw={500} underline="hover">
+                <LinkAnchor to='/contracts/$id' params={{ id: String(contract.id) }} >
                     {contract.title}
-                </Anchor>
+                </LinkAnchor>
             </div>
 
             <div className={classes.content}>
@@ -104,145 +103,73 @@ export function ContractList({ }: ContractListProps) {
 
 
     return (
-        <Stack gap={0}>
-            <Group justify="space-between">
-                <Group gap="sm">
-                    <TextInput
-                        placeholder="제목 또는 작성자 검색"
-                        leftSection={<IconSearch size={16} />}
-                        value={search}
-                        onChange={(e) => setSearch(e.currentTarget.value)}
-                        rightSection={
-                            search ? (
-                                <Button
-                                    variant="subtle"
-                                    size="xs"
-                                    px={4}
-                                    onClick={() => setSearch("")}
-                                    style={{ height: 24 }}
-                                    tabIndex={-1}
-                                >
-                                    ×
-                                </Button>
-                            ) : null
-                        }
-                    />
-                    <SegmentedControl
-                        value={status}
-                        onChange={(val) => setStatus(val as typeof status)}
-                        data={[
-                            { label: '전체', value: 'all' },
-                            { label: '진행중', value: 'open' },
-                            { label: '완료', value: 'closed' },
-                        ]}
-                    />
+        <Box p="lg" mx="auto" style={{ maxWidth: 900, width: '100%' }}>
+            <Stack gap={0} style={{ width: '100%' }}>
+                <Group justify="space-between">
+                    <Group gap="sm">
+                        <TextInput
+                            placeholder="제목 또는 작성자 검색"
+                            leftSection={<IconSearch size={16} />}
+                            value={search}
+                            onChange={(e) => setSearch(e.currentTarget.value)}
+                            rightSection={
+                                search ? (
+                                    <Button
+                                        variant="subtle"
+                                        size="xs"
+                                        px={4}
+                                        onClick={() => setSearch("")}
+                                        style={{ height: 24 }}
+                                        tabIndex={-1}
+                                    >
+                                        ×
+                                    </Button>
+                                ) : null
+                            }
+                        />
+                        <SegmentedControl
+                            value={status}
+                            onChange={(val) => setStatus(val as typeof status)}
+                            data={[
+                                { label: '전체', value: 'all' },
+                                { label: '진행중', value: 'open' },
+                                { label: '완료', value: 'closed' },
+                            ]}
+                        />
+                    </Group>
+                    <Menu shadow="md" width={160}>
+                        <Menu.Target>
+                            <Button variant="default" rightSection={<IconSelector size={14} />}>
+                                정렬
+                            </Button>
+                        </Menu.Target>
+                        <Menu.Dropdown>
+                            <Menu.Item onClick={() => setSort('newest')}>
+                                {sort === 'newest' ? <IconCheck size={14} /> : null} 최근 의뢰
+                            </Menu.Item>
+                            <Menu.Item onClick={() => setSort('updated')}>
+                                {sort === 'updated' ? <IconCheck size={14} /> : null} 최근 업데이트
+                            </Menu.Item>
+                            <Menu.Item onClick={() => setSort('effectiveDate')}>
+                                {sort === 'effectiveDate' ? <IconCheck size={14} /> : null} 시행예정일
+                            </Menu.Item>
+                        </Menu.Dropdown>
+                    </Menu>
                 </Group>
-                <Menu shadow="md" width={160}>
-                    <Menu.Target>
-                        <Button variant="default" rightSection={<IconSelector size={14} />}>
-                            정렬
-                        </Button>
-                    </Menu.Target>
-                    <Menu.Dropdown>
-                        <Menu.Item onClick={() => setSort('newest')}>
-                            {sort === 'newest' ? <IconCheck size={14} /> : null} 최근 의뢰
-                        </Menu.Item>
-                        <Menu.Item onClick={() => setSort('updated')}>
-                            {sort === 'updated' ? <IconCheck size={14} /> : null} 최근 업데이트
-                        </Menu.Item>
-                        <Menu.Item onClick={() => setSort('effectiveDate')}>
-                            {sort === 'effectiveDate' ? <IconCheck size={14} /> : null} 시행예정일
-                        </Menu.Item>
-                    </Menu.Dropdown>
-                </Menu>
-            </Group>
 
-            <Stack gap={0} className={classes.list}>
-                {contracts.map((item) => (
-                    <ContractListItem key={item.id} contract={item} />
-                    // <Paper key={item.id}  p="sm" className={classes.listItem}>
-                    //     <Group align="flex-start" justify="space-between" >
-                    //         {/* 왼쪽: 체크박스 + 본문 */}
-                    //         <Group align="flex-start">
-                    //             <Checkbox />
-                    //             <Stack gap={4}>
-                    //                 <Group gap="xs">
-                    //                     <Text fw={500}>{item.title}</Text>
-                    //                     {item.labels.map((label) => (
-                    //                         <Badge key={label} size="sm" variant="light">
-                    //                             {label}
-                    //                         </Badge>
-                    //                     ))}
-                    //                     <Badge
-                    //                         size="sm"
-                    //                         color={item.status === 'open' ? 'blue' : 'green'}
-                    //                     >
-                    //                         {item.status === 'open' ? '진행중' : '완료'}
-                    //                     </Badge>
-                    //                 </Group>
-                    //                 <Text size="sm" c="dimmed">
-                    //                     #{item.id}{' '}·{' '}
-                    //                     {item.creators[0].name} <small>{item.creators[0].department}</small> ·
-                    //                     의뢰일 <RelativeDate date={item.requestedDate} /> · 시행일 {item.effectiveDate} · <ReviewersInline reviewers={item.reviewers} />
-                    //                 </Text>
-                    //             </Stack>
-                    //         </Group>
-
-                    //         <Stack gap={4} align="space-between" style={{ textAlign: "right" }}>
-                    //             <Text size="sm">
-
-
-                    //             </Text>
-                    //             <Text size="xs" c="dimmed" style={{ textAlign: "right" }}>
-                    //                 <RelativeDate date={item.updatedAt} /><br />
-                    //             </Text>
-
-                    //         </Stack>
-                    //     </Group>
-                    // </Paper>
-                ))}
+                <Stack gap={0} className={classes.list}>
+                    {contracts.length === 0 ? (
+                        <Text c="dimmed" ta="center" py="xl">
+                            표시할 계약이 없습니다.
+                        </Text>
+                    ) : (
+                        contracts.map((item) => (
+                            <ContractListItem key={item.id} contract={item} />
+                        ))
+                    )}
+                </Stack>
             </Stack>
-        </Stack>
-        // <div>
-        //     <h2>내 손길을 기다리는 놈들 ({lastUpdatedAt ? <RelativeDate date={lastUpdatedAt} /> : "not updated yet"})</h2>
-        //     <Table>
-        //         <Table.Tbody>
-        //             {contracts.map((review) => (
-        //                 <Table.Tr key={review.id}>
-
-        //                     <Table.Td className={classes.viewcode}>
-        //                         {review.id}
-        //                     </Table.Td>
-        //                     <Table.Td>
-        //                         <div>{review.title}</div>
-        //                         <MultiSelect
-
-        //                             data={labelArray}
-        //                         />
-        //                     </Table.Td>
-        //                     <Table.Td>
-        //                         {review.creators[0].name}/{review.creators[0].department}
-        //                     </Table.Td>
-        //                     <Table.Td>
-        //                         <ReviewersInline reviewers={review.reviewers} />
-        //                     </Table.Td>
-        //                     <Table.Td>
-        //                         <EnforcementDate date={review.enforcementDate} />
-        //                     </Table.Td>
-        //                     <Table.Td>
-
-        //                     </Table.Td>
-        //                     <Table.Td>
-        //                         <RelativeDate date={review.updatedAt} />
-        //                     </Table.Td>
-        //                 </Table.Tr>
-        //             ))}
-        //         </Table.Tbody>
-
-        //     </Table>
-        //     <ul>
-        //     </ul>
-        // </div>
+        </Box>
     );
 
 }

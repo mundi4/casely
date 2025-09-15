@@ -33,7 +33,8 @@ class RequestHandler(http.server.SimpleHTTPRequestHandler):
 
     def do_GET(self):
         from .db import casely_meta_get, request_conns
-
+        import posixpath
+        # 1. API 핸들링
         if self.path.startswith("/api/labels"):
             url = urlparse(self.path)
             qs = parse_qs(url.query)
@@ -96,9 +97,29 @@ class RequestHandler(http.server.SimpleHTTPRequestHandler):
             self.send_response(404)
             self.end_headers()
             return
+        # 2. 정적 파일이 실제로 존재하면 그대로 서빙
         else:
-            # Use parent static file handler
-            return super().do_GET()
+            # static_dir은 run_server에서 directory로 지정됨
+            static_dir = self.directory if hasattr(self, 'directory') else os.path.join(os.path.dirname(__file__), "static")
+            # 경로 정규화
+            relpath = self.path.lstrip("/")
+            relpath = relpath.split("?", 1)[0].split("#", 1)[0]
+            fullpath = os.path.join(static_dir, posixpath.normpath(relpath))
+            if os.path.isfile(fullpath):
+                return super().do_GET()
+            # 3. 그 외(SPA 라우트)는 index.html 반환
+            index_path = os.path.join(static_dir, "index.html")
+            if os.path.isfile(index_path):
+                self.send_response(200)
+                self.send_header("Content-Type", "text/html")
+                self.end_headers()
+                with open(index_path, "rb") as f:
+                    self.wfile.write(f.read())
+                return
+            # index.html도 없으면 404
+            self.send_response(404)
+            self.end_headers()
+            return
 
     def do_PUT(self):
         from .db import request_conns
