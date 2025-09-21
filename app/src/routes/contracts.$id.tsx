@@ -1,7 +1,7 @@
 
 import { createFileRoute } from '@tanstack/react-router';
 import { useParams } from '@tanstack/react-router';
-import { Box, Text, Card, Group, Stack, Divider, Badge, Paper } from '@mantine/core';
+import { Box, Text, Card, Group, Stack, Divider, Badge, Grid } from '@mantine/core';
 import { useAppStore } from '../stores/appStore';
 import { ReviewersInline } from '../components/ReviewersInline';
 
@@ -38,27 +38,25 @@ function ContractDetail() {
                     </Stack>
                     <Stack gap={2} align="flex-end">
                         <Text size="sm"><b>의뢰일</b> {contract.requestedDate}</Text>
-                        <Text size="sm"><b>시행일</b> {contract.effectiveDate || '-'}</Text>
+                        <Text size="sm"><b>시행일</b> {contract.effectiveDate || 'TBD'}</Text>
                     </Stack>
                 </Group>
                 <Divider my="sm" />
-                {/* 본문 좌우 분할 */}
-                <Group align="flex-start" wrap="wrap" gap="xl">
-                    {/* 왼쪽: 주요 정보 */}
-                    <Stack gap={8} style={{ flex: 2, minWidth: 240 }}>
-                        <Text><b>작성자</b> {contract.creators.map(c => `${c.name}${c.department ? `(${c.department})` : ''}`).join(', ')}</Text>
-                        <Text><b>검토자</b> <ReviewersInline reviewers={contract.reviewers} /></Text>
-                        <Text><b>설명</b> {contract.description || '-'}</Text>
-                    </Stack>
-                    {/* 오른쪽: 부가 정보 */}
-                    <Paper withBorder p="sm" radius="md" style={{ minWidth: 160, background: "#fafbfc" }}>
-                        <Stack gap={4}>
-                            <Text size="sm" c="dimmed">ID: {contract.id}</Text>
-                            <Text size="sm" c="dimmed">라벨: {contract.labels?.length ? contract.labels.join(', ') : '-'}</Text>
-                            {/* 기타 부가 정보 추가 가능 */}
+                <Grid>
+                    <Grid.Col span={9}>
+                        <Stack gap={8} style={{ flex: 2, minWidth: 240 }}>
+                            <Text><b>작성자</b> {contract.creators.map(c => `${c.name}${c.department ? `(${c.department})` : ''}`).join(', ')}</Text>
+                            <Text><b>검토자</b> <ReviewersInline reviewers={contract.reviewers} /></Text>
+                            <Text><b>설명</b> {contract.description || '-'}</Text>
                         </Stack>
-                    </Paper>
-                </Group>
+                    </Grid.Col>
+                    <Grid.Col span={3}>
+                        <Stack gap={4}>
+                            <Text size="sm" c="dimmed"><code>{contract.viewcode}</code></Text>
+                        </Stack>
+                    </Grid.Col>
+                </Grid>
+                
             </Card>
         </Box>
     );

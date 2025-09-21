@@ -3,7 +3,7 @@
 export interface SyncRequest {
 	since: {
 		contract: number; // ms timestamp
-		label: number;    // ms timestamp
+		label: number; // ms timestamp
 	};
 }
 
@@ -81,4 +81,45 @@ const ReviewStatus = {
 	FINISH: "FINISH", // 검토 완료
 } as const;
 
-export type ReviewStatus = typeof ReviewStatus[keyof typeof ReviewStatus];
+export type ReviewStatus = (typeof ReviewStatus)[keyof typeof ReviewStatus];
+
+interface ContractHistoryBase {
+	type: string;
+	actionText: string;
+	creator: string;
+	createTime: string;
+	isShowComment: boolean;
+	comment: string;
+	id: number;
+	creatorDept: string;
+	creatorPosition: string;
+	extraInfo: {
+		historyType: string;
+	};
+}
+
+export interface ContractHistoryMemo extends ContractHistoryBase {
+	type: "mymemo";
+	actionText: string;
+}
+
+export interface ContractHistoryWorkflow extends ContractHistoryBase {
+	type: "workflow";
+	actionText: "검토 완료" | "검토완료" | "배정확인" | "배정 완료" | "담당자 배정" | "접수 승인" | "요청 승인" | "검토요청 등록" | "승인 요청";
+}
+
+// 파일등록(첨부)
+export interface ContractHistoryAttachment extends ContractHistoryBase {
+	actionText: "파일등록";
+	type: "attachment";
+	contractDocList?: Array<{
+		path: string;
+		fileText: string;
+		fileName: string;
+		extension: string;
+		type: string;
+		fileId: string;
+	}>;
+}
+
+export type ContractHistory = ContractHistoryMemo | ContractHistoryWorkflow | ContractHistoryAttachment;

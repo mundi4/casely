@@ -28,7 +28,7 @@ export function AppBar({ autoSync }: AppBarProps) {
 					<IconBriefcase stroke={2} />
 					{/* You can change the icon below to any Tabler icon you like */}
 				</ActionIcon>
-				<Box fw={700} fz="lg" style={{ letterSpacing: 1 }}>어떤 의미 있는 이름?</Box>
+				<Box fw={700} fz="xl" style={{ letterSpacing: 1 }}>Casely</Box>
 			</Group>
 			{/* Action buttons */}
 			<Group justify="flex-end" align="center" gap={0}>

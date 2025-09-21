@@ -1,6 +1,8 @@
 import { execSync } from "child_process";
 import { existsSync, rmSync, mkdirSync, cpSync, readFileSync, writeFileSync, createWriteStream } from "fs";
 import path from "path";
+const imported = await import('archiver');
+const archiver = imported.default || imported;
 
 function run(cmd: string, cwd?: string) {
 	console.log(`[build] $ ${cmd}`);
@@ -84,7 +86,7 @@ console.log("\n[build] 모든 산출물이 dist/에 모였습니다.");
 // 5. /dist 폴더 전체를 node-only zip(archiver) -> base64 인코딩 -> 1500줄씩 분할 저장
 // 사내 메신저로 보내야 하는데... 텍스트만 보낼 수 있다. 2000줄까지는 힘들다.
 (async () => {
-	const archiver = (await import('archiver')).default || (await import('archiver'));
+	//const archiver = (await import('archiver')).default || (await import('archiver'));
 	const OUT_DIR = path.join(artifactsDir, "base64");
 	const ARCHIVE_NAME = "casely-bundle.zip";
 	const zipPath = path.join(artifactsDir, ARCHIVE_NAME);

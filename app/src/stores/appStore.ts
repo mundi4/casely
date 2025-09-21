@@ -95,7 +95,6 @@ const serverAPI = {
 		if (!response.ok) throw new Error("Failed to fetch labels");
 		return response.json();
 	},
-
 };
 
 export const useAppStore = create<AppState>()(
@@ -242,6 +241,64 @@ function toContract(raw: ContractRow): Contract {
 		}
 
 		reviewers.push(reviewer as Reviewer);
+	}
+
+	for (const entry of history) {
+		//@ts-ignore
+		const _actor = {
+			name: entry.creator,
+			department: entry.creatorDepart,
+			position: entry.creatorPosition,
+		};
+
+		switch (entry.actionText) {
+			case "검토요청 등록":
+				// created. 무시...
+				break;
+
+			case "승인 요청":
+				// 의뢰자가 의뢰부서의 캡틴에게 승인요청
+				break;
+
+			case "요청 승인":
+				// 의뢰부서 캡틴이 승인
+				break;
+
+			case "접수 승인":
+				// 캡틴이 승인/접수
+				break;
+
+			case "담당자 배정":
+				// 캡틴이 담당자 배정
+				break;
+
+			case "담당자 삭제": // 정확한 이름 확인 필요
+				// 캡틴이 담당자 삭제
+				break;
+
+			case "배정 완료":
+				// 담당자(reviewer) 배정 완료
+				break;
+
+			case "배정 확인":
+				// 담당자가 배정 확인
+				break;
+
+			case "검토완료":
+				// 검토자가 검토완료
+				break;
+
+			case "검토 완료":
+				// 캡틴이 완료.
+				break;
+
+			case "내 메모":
+				// personal note
+				break;
+
+			case "파일 등록":
+				break;
+		}
 	}
 
 	let contract: Partial<Contract> = {

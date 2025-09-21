@@ -55,7 +55,7 @@
         "reviewRequestDate": "2025/09/09",
         "enforcementDate": "2025/09/26",
         "receptionDate": "2025-09-13T14:17:17.351Z",
-        "replyDate": null,
+        "replyDate": "2025-09-15T12:51:33.886Z",
         "contractHistory": [
           {
             "id": 1,
@@ -85,6 +85,12 @@
             "id": 5,
             "actionText": "반려",
             "createTime": "2025/9/14/오후 5:07",
+            "contractDocList": []
+          },
+          {
+            "id": 6,
+            "actionText": "검토 완료",
+            "createTime": "2025/9/15/오후 9:51",
             "contractDocList": []
           }
         ],
@@ -264,7 +270,7 @@
         "reviewRequestDate": "2025/09/08",
         "enforcementDate": "2025/09/18",
         "receptionDate": "2025-09-11T23:04:39.218Z",
-        "replyDate": "2025-09-16T06:15:39.539Z",
+        "replyDate": null,
         "contractHistory": [
           {
             "actionText": "검토완료",
@@ -284,6 +290,12 @@
             "id": 1,
             "actionText": "접수",
             "createTime": "2025/09/08 09:06",
+            "contractDocList": []
+          },
+          {
+            "id": 149800,
+            "actionText": "반려",
+            "createTime": "2025/9/15/오후 9:51",
             "contractDocList": []
           }
         ],
@@ -555,12 +567,18 @@
         "reviewRequestDate": "2025/09/12",
         "enforcementDate": "2025/09/01",
         "receptionDate": "2025-08-26T11:14:00.568Z",
-        "replyDate": null,
+        "replyDate": "2025-09-15T12:51:15.897Z",
         "contractHistory": [
           {
             "id": 1,
             "actionText": "접수",
             "createTime": "2025/08/26 10:11",
+            "contractDocList": []
+          },
+          {
+            "id": 2,
+            "actionText": "검토 완료",
+            "createTime": "2025/9/15/오후 9:51",
             "contractDocList": []
           }
         ],
@@ -609,7 +627,7 @@
         "reviewRequestDate": "2025/09/12",
         "enforcementDate": "2025/09/12",
         "receptionDate": "2025-09-04T13:11:39.359Z",
-        "replyDate": "2025-09-14T08:16:41.939Z",
+        "replyDate": null,
         "contractHistory": [
           {
             "id": 1,
@@ -621,6 +639,24 @@
             "id": 2,
             "actionText": "검토 완료",
             "createTime": "2025/9/14/오후 5:16",
+            "contractDocList": []
+          },
+          {
+            "id": 3,
+            "actionText": "반려",
+            "createTime": "2025/9/15/오후 9:51",
+            "contractDocList": []
+          },
+          {
+            "id": 4,
+            "actionText": "검토 완료",
+            "createTime": "2025/9/15/오후 9:51",
+            "contractDocList": []
+          },
+          {
+            "id": 5,
+            "actionText": "반려",
+            "createTime": "2025/9/15/오후 9:51",
             "contractDocList": []
           }
         ],
@@ -676,6 +712,18 @@
             "actionText": "접수",
             "createTime": "2025/08/14 15:44",
             "contractDocList": []
+          },
+          {
+            "id": 2,
+            "actionText": "검토 완료",
+            "createTime": "2025/9/15/오후 9:51",
+            "contractDocList": []
+          },
+          {
+            "id": 3,
+            "actionText": "반려",
+            "createTime": "2025/9/15/오후 9:51",
+            "contractDocList": []
           }
         ],
         "isSecurity": false,
@@ -730,7 +778,7 @@
         "reviewRequestDate": "2025/09/12",
         "enforcementDate": null,
         "receptionDate": "2025-08-26T16:40:40.752Z",
-        "replyDate": null,
+        "replyDate": "2025-09-15T12:51:56.952Z",
         "contractHistory": [
           {
             "id": 1,
@@ -748,6 +796,24 @@
             "id": 3,
             "actionText": "반려",
             "createTime": "2025/9/14/오후 7:26",
+            "contractDocList": []
+          },
+          {
+            "id": 4,
+            "actionText": "검토 완료",
+            "createTime": "2025/9/15/오후 9:51",
+            "contractDocList": []
+          },
+          {
+            "id": 5,
+            "actionText": "반려",
+            "createTime": "2025/9/15/오후 9:51",
+            "contractDocList": []
+          },
+          {
+            "id": 6,
+            "actionText": "검토 완료",
+            "createTime": "2025/9/15/오후 9:51",
             "contractDocList": []
           }
         ],
@@ -3385,7 +3451,7 @@
         "reviewRequestDate": "2025/09/14",
         "enforcementDate": "2025/08/26",
         "receptionDate": "2025-08-21T20:41:13.992Z",
-        "replyDate": null,
+        "replyDate": "2025-09-15T12:52:43.563Z",
         "contractHistory": [
           {
             "id": 1,
@@ -3427,6 +3493,102 @@
             "id": 7,
             "actionText": "반려",
             "createTime": "2025/9/14/오후 5:10",
+            "contractDocList": []
+          },
+          {
+            "id": 8,
+            "actionText": "검토 완료",
+            "createTime": "2025/9/15/오후 9:52",
+            "contractDocList": []
+          },
+          {
+            "id": 9,
+            "actionText": "반려",
+            "createTime": "2025/9/15/오후 9:52",
+            "contractDocList": []
+          },
+          {
+            "id": 10,
+            "actionText": "검토 완료",
+            "createTime": "2025/9/15/오후 9:52",
+            "contractDocList": []
+          },
+          {
+            "id": 11,
+            "actionText": "반려",
+            "createTime": "2025/9/15/오후 9:52",
+            "contractDocList": []
+          },
+          {
+            "id": 12,
+            "actionText": "검토 완료",
+            "createTime": "2025/9/15/오후 9:52",
+            "contractDocList": []
+          }
+        ],
+        "isSecurity": false,
+        "documentReviewList": [],
+        "documentTargetList": []
+      }
+    ],
+    [
+      15000,
+      {
+        "id": 15000,
+        "title": "유지보수 계약 898",
+        "description": "검토가 필요합니다.\n내일 시행",
+        "approvalLine": "EQUAL",
+        "status": "REVIEW",
+        "businessWorkDstic": "3",
+        "businessWorkDsticText": "규정지침 + 매뉴얼",
+        "viewcode": "20250915-00015000",
+        "viewCode": "20250915-00015000",
+        "creatorList": [
+          {
+            "creator": "이영희",
+            "creatorDepartment": "기업제품부",
+            "creatorPosition": "팀원",
+            "positionNameAndRankName": "팀원[L1]",
+            "creatorEmail": "2345678@XXX.COM",
+            "displayName": "이영희 팀원[L1]"
+          }
+        ],
+        "creatorPosition": "팀원",
+        "creatorDepartment": "기업제품부",
+        "creatorEmail": "2345678@XXX.COM",
+        "reviewers": [
+          {
+            "name": "김영지",
+            "position": "변호사",
+            "department": "법률지원부",
+            "employeeNo": "3333333",
+            "email": "3333333@XXX.COM",
+            "memberId": 833333
+          }
+        ],
+        "createDate": "2025/09/15",
+        "labels": [],
+        "reviewRequestDate": "2025/09/15",
+        "enforcementDate": null,
+        "receptionDate": "2025-09-12T16:41:45.181Z",
+        "replyDate": null,
+        "contractHistory": [
+          {
+            "id": 1,
+            "actionText": "접수",
+            "createTime": "2025/09/11 04:01",
+            "contractDocList": []
+          },
+          {
+            "id": 2,
+            "actionText": "검토 완료",
+            "createTime": "2025/9/15/오후 9:52",
+            "contractDocList": []
+          },
+          {
+            "id": 3,
+            "actionText": "반려",
+            "createTime": "2025/9/15/오후 9:52",
             "contractDocList": []
           }
         ],
@@ -3710,7 +3872,11 @@
     [
       14999,
       []
+    ],
+    [
+      15000,
+      []
     ]
   ],
-  "nextContractId": 15000
+  "nextContractId": 15001
 }
