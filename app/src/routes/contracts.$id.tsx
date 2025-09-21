@@ -4,6 +4,7 @@ import { useParams } from '@tanstack/react-router';
 import { Box, Text, Card, Group, Stack, Divider, Badge, Grid } from '@mantine/core';
 import { useAppStore } from '../stores/appStore';
 import { ReviewersInline } from '../components/ReviewersInline';
+import { RefreshPolicySwitch } from '../components/RefreshPolicySwitch';
 
 export const Route = createFileRoute('/contracts/$id')({
     component: ContractDetail,
@@ -53,10 +54,11 @@ function ContractDetail() {
                     <Grid.Col span={3}>
                         <Stack gap={4}>
                             <Text size="sm" c="dimmed"><code>{contract.viewcode}</code></Text>
+                            <RefreshPolicySwitch contractId={contract.id} value={contract.refreshPolicy} />
                         </Stack>
                     </Grid.Col>
                 </Grid>
-                
+
             </Card>
         </Box>
     );

@@ -1,7 +1,7 @@
 import { create } from "zustand";
 import { devtools } from "zustand/middleware";
 import { formatISO, parse } from "date-fns";
-import type { BaseEntity as BaseEntity, Contract as Contract, EntityCache, Label, Person, Reviewer } from "../types";
+import type { BaseEntity as BaseEntity, Contract as Contract, EntityCache, Label, Person, RefreshPolicy, Reviewer } from "../types";
 import { cleanupSnapshots, loadLatestSnapshot, saveSnapshot, type SnapshotMeta } from "./snapshotDb";
 
 export interface PendingChanges {
@@ -30,6 +30,7 @@ interface AppState {
 	bootstrap: () => Promise<void>;
 	loadChanges: (autoApply?: boolean) => Promise<void>;
 	applyPending: (opts?: { contractIds?: number[]; labelIds?: number[] }) => void;
+	setRefreshPolicy: (id: number, policy: RefreshPolicy) => Promise<void>;
 }
 
 const apiBase = "http://localhost:8080"; // 개발용, 실제 배포시에는 빈 문자열로
@@ -49,6 +50,7 @@ type ContractRow = RawEntry & {
 	user_updated_at: number;
 	updated_at: number;
 	deleted_at: number | null;
+	refresh_policy?: RefreshPolicy;
 };
 
 // 서버 API 호출 함수들
@@ -93,6 +95,18 @@ const serverAPI = {
 		}
 		const response = await fetch(url);
 		if (!response.ok) throw new Error("Failed to fetch labels");
+		return response.json();
+	},
+
+	updateContract: async (id: number, updates: Partial<{ refresh_policy?: 0 | 100; notes?: string }>) => {
+		const response = await fetch(apiBase + `/api/contracts/${id}`, {
+			method: "PATCH",
+			headers: {
+				"Content-Type": "application/json",
+			},
+			body: JSON.stringify(updates),
+		});
+		if (!response.ok) throw new Error("Failed to update contract");
 		return response.json();
 	},
 };
@@ -215,6 +229,55 @@ export const useAppStore = create<AppState>()(
 				});
 			}
 		},
+
+		setRefreshPolicy: async (id: number, policy: RefreshPolicy) => {
+			// Optimistic update: 먼저 로컬 상태 변경
+			let prevPolicy: RefreshPolicy;
+			set((state) => {
+				const contract = state.contracts.idMap[id];
+				if (contract) {
+					prevPolicy = contract.refreshPolicy;
+					return {
+						contracts: {
+							...state.contracts,
+							idMap: {
+								...state.contracts.idMap,
+								[id]: {
+									...contract,
+									refreshPolicy: policy,
+								},
+							},
+						},
+					};
+				}
+				return {};
+			});
+			try {
+				const result = await serverAPI.updateContract(id, { refresh_policy: policy });
+				return result;
+			} catch (e) {
+				// 서버 반영 실패 시 롤백
+				set((state) => {
+					const contract = state.contracts.idMap[id];
+					if (contract) {
+						return {
+							contracts: {
+								...state.contracts,
+								idMap: {
+									...state.contracts.idMap,
+									[id]: {
+										...contract,
+										refreshPolicy: prevPolicy,
+									},
+								},
+							},
+						};
+					}
+					return {};
+				});
+				throw e;
+			}
+		},
 	})),
 );
 
@@ -304,10 +367,11 @@ function toContract(raw: ContractRow): Contract {
 	let contract: Partial<Contract> = {
 		id: raw.id,
 		status: detail.replyDate ? "closed" : "open",
-		title: detail.title || "",
+		title: detail.name || "",
 		description: detail.description || "",
 		fetchedAt: raw.source_fetched_at,
 		updatedAt: raw.updated_at,
+		refreshPolicy: raw.refresh_policy || 0,
 		creators: detail.creatorList.map((c: any) =>
 			toPerson({
 				name: c.creator,

@@ -1,5 +1,7 @@
 // --- Sync API Types ---
 
+export type RefreshPolicy = 0 | 100; // 0: auto, 100: never
+
 export interface SyncRequest {
 	since: {
 		contract: number; // ms timestamp
@@ -45,6 +47,7 @@ export interface Contract extends BaseEntity {
 	requestedDate: string; // YYYY-MM-DD
 	effectiveDate: string | null; // YYYY-MM-DD
 	labels: number[];
+	refreshPolicy: RefreshPolicy;
 	_source: any;
 }
 

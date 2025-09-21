@@ -70,6 +70,7 @@ if (existsSync(secretsPath) && existsSync(manifestPath)) {
 	if (secrets.ORIGIN_URL) {
 	// __REPLACE_ME_ORIGIN__ 치환
 	manifest = manifest.replace(/__REPLACE_ME_ORIGIN__/g, secrets.ORIGIN_URL);
+	manifest = manifest.replaceAll("http://the.source.com",secrets.ORIGIN_URL)
 	writeFileSync(manifestPath, manifest, "utf8");
 	console.log(`[build] manifest.json의 origin을 secrets.json 값으로 치환 완료.`);
 	} else {

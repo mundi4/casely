@@ -30,7 +30,7 @@ from typing import Optional, Dict, Any, List, Tuple
 from urllib import request as _urlreq
 from urllib.error import URLError, HTTPError
 
-from .utils import log_message
+from server.utils import log_message, now_ms
 from . import db as _db  # for optional helpers to be added next step
 
 # ---------------------------------------------------------------------
@@ -48,8 +48,8 @@ CHATS_PATH = "/api/chat/list"
 class PollerConfig:
     base_url: str
     page_size: int = 20
-    sleep_between_items_s: float = 0.1
-    sleep_between_pages_s: float = 1.0
+    sleep_between_items_s: float = 2.0
+    sleep_between_pages_s: float = 10.0
     http_timeout_s: float = 10.0
 
     min_contract_id: int = 14881  # for cursor effective lower bound
@@ -90,6 +90,7 @@ def init_poller(config: PollerConfig) -> None:
     _cfg = config
 
 def _run_forever() -> None:
+    #print("[_run_forever] starting poll_forever()")
     poll_forever()
 
 def start_poller(polling_queue: Optional[queue.Queue] = None) -> None:
@@ -298,6 +299,7 @@ def make_list_payload(auth: AuthInfo, *, page: int, page_size: int) -> Dict[str,
     }
 
 def fetch_list_page(auth: AuthInfo, page: int, page_size: int) -> Tuple[List[RemoteListItem], bool]:
+    # print("fetch_list_page", page, page_size)
     """
     POST LIST_PATH and return (filtered_items, has_more).
     Response shape:
@@ -313,6 +315,10 @@ def fetch_list_page(auth: AuthInfo, page: int, page_size: int) -> Tuple[List[Rem
         notify_auth_status(209)
         return ([], False)
 
+    if status != 200:
+        print("Unexpected status while fetching list", status)
+        return ([], False)
+
     items_raw: List[Dict[str, Any]] = []
     if isinstance(data, dict) and data.get("returnCode") == 0:
         app_data = data.get("appData") or {}
@@ -320,23 +326,27 @@ def fetch_list_page(auth: AuthInfo, page: int, page_size: int) -> Tuple[List[Rem
         if isinstance(lst, list):
             items_raw = lst
 
-    has_more = len(items_raw) >= page_size
+    has_more = len(items_raw) >= page_size and url.find("localhost") == -1
 
     # Build filtered RemoteListItem list (LIST is assumed to be sorted by id DESC)
     items: List[RemoteListItem] = []
     for it in items_raw:
         if not isinstance(it, dict):
+            print("Unexpected item in list page:", it)
             continue
         
         cid = it.get("id")
         
         if cid <= start_cursor:
+            #print("Stopping pagination: reached start cursor", start_cursor)
             has_more = False  # full stop (older pages unnecessary)
             break
 
         if not _is_desired_item(it):
+            #print("Skipping undesired item in list page:", cid)
             continue
 
+        #print("Keeping item in list page:", cid)
         items.append(RemoteListItem(id=cid, meta=it))
 
     return (items, has_more)
@@ -359,6 +369,7 @@ def make_chats_payload(auth: AuthInfo, *, contract_id: int) -> Dict[str, Any]:
     }
 
 def fetch_detail_and_chats(contract_id: int, auth: AuthInfo) -> Optional[DetailPayload]:
+    # print("fetch_detail_and_chats", contract_id)
     """
     POST DETAIL_PATH / CHATS_PATH.
     - detail: use resp["appData"] as the payload
@@ -373,7 +384,10 @@ def fetch_detail_and_chats(contract_id: int, auth: AuthInfo) -> Optional[DetailP
         notify_auth_status(209)
         return None
     if not (isinstance(d_json, dict) and d_json.get("returnCode") == 0):
+        print("Unexpected status while fetching detail", d_status)
         return None
+    
+    # print("detail", contract_id, d_json)
     detail_obj = (d_json.get("appData") or {})
     remove_filetext_fields(detail_obj)  # mutate in place
     detail_str = json.dumps(detail_obj, ensure_ascii=False, separators=(",", ":"))
@@ -399,9 +413,6 @@ def fetch_detail_and_chats(contract_id: int, auth: AuthInfo) -> Optional[DetailP
 # ---------------------------------------------------------------------
 # Polling logic
 # ---------------------------------------------------------------------
-
-def now_ms() -> int:
-    return int(time.time() * 1000)
 
 def poll_pages_once(max_pages: Optional[int] = None) -> int:
     """
@@ -432,10 +443,11 @@ def poll_pages_once(max_pages: Optional[int] = None) -> int:
     try:
         while True:
             items, has_more = fetch_list_page(auth, page, cfg.page_size)
-
+            #print("Fetched list page", page, "items:", len(items), "has_more:", has_more)
             for it in items:
                 payload = fetch_detail_and_chats(it.id, auth)
                 if payload is None:
+                    print("Stopping batch early due to fetch_detail_and_chats returning None")
                     # start_cursor를 업데이트 해버리면 다시 fetch를 안하기 때문에 억울하지만 바로 리턴.
                     # 다음 fetch 때 첫페이지부터 다시 시작해야 함. :(
                     return processed
@@ -498,6 +510,7 @@ def refresh_stale_once(ttl_ms: int, max_items: Optional[int] = None) -> int:
     conn = _db.open_rw()
     try:
         stale_ids = _db.casely_get_stale_contract_ids(conn, older_than_ms=older_than, limit=limit)
+        #print(f"[refresh_stale_once] found {len(stale_ids)} stale ids older than {older_than} (now={now_ms()})")
         count = 0
         for cid in stale_ids:
             payload = fetch_detail_and_chats(int(cid), auth)
@@ -536,6 +549,7 @@ def poll_forever() -> None:
       4) Sleep a bit between cycles
       5) 매 루프마다 메시지 큐를 non-blocking으로 확인
     """
+    print("[poll_forever] started")
     cfg = _require_cfg()
     ev = get_stop_event()
     global _polling_queue

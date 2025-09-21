@@ -15,7 +15,7 @@ from datetime import datetime
 
 from .polling import PollerConfig
 from .db import init_all
-
+from server.utils import now_ms
 
 import queue
 
@@ -24,6 +24,8 @@ polling_queue = queue.Queue()
 
 
 class RequestHandler(http.server.SimpleHTTPRequestHandler):
+
+
 
     def send_json_response(self, data, status=200):
         self.send_response(status)
@@ -35,26 +37,6 @@ class RequestHandler(http.server.SimpleHTTPRequestHandler):
         from .db import casely_meta_get, request_conns
         import posixpath
         # 1. API 핸들링
-        if self.path.startswith("/api/labels"):
-            url = urlparse(self.path)
-            qs = parse_qs(url.query)
-            updated_since = int(qs.get("updated_since", ["0"])[0])
-
-            with request_conns() as conn:
-                items = conn.execute("SELECT * FROM labels WHERE updated_at > ?", (updated_since,)).fetchall()
-                
-            max_updated_at = updated_since
-            for item in items:
-                item["updated_at"] = max(item.get("updated_at", 0) or 0, item.get("deleted_at", 0) or 0)
-                if item["updated_at"] > max_updated_at:
-                    max_updated_at = item["updated_at"]
-            
-            self.send_json_response({
-                "max_updated_at": max_updated_at,
-                "items": items
-            })
-            return
-
         if self.path == "/api/auth":
             with request_conns() as conn:
                 data = casely_meta_get(conn, "auth")
@@ -86,7 +68,28 @@ class RequestHandler(http.server.SimpleHTTPRequestHandler):
                 )
                 if item["updated_at"] > max_updated_at:
                     max_updated_at = item["updated_at"]
+                item["refresh_policy"] = item.get("refresh_policy", 0) or 0
 
+            self.send_json_response({
+                "max_updated_at": max_updated_at,
+                "items": items
+            })
+            return
+                
+        if self.path.startswith("/api/labels"):
+            url = urlparse(self.path)
+            qs = parse_qs(url.query)
+            updated_since = int(qs.get("updated_since", ["0"])[0])
+
+            with request_conns() as conn:
+                items = conn.execute("SELECT * FROM labels WHERE updated_at > ?", (updated_since,)).fetchall()
+                
+            max_updated_at = updated_since
+            for item in items:
+                item["updated_at"] = max(item.get("updated_at", 0) or 0, item.get("deleted_at", 0) or 0)
+                if item["updated_at"] > max_updated_at:
+                    max_updated_at = item["updated_at"]
+            
             self.send_json_response({
                 "max_updated_at": max_updated_at,
                 "items": items
@@ -193,6 +196,66 @@ class RequestHandler(http.server.SimpleHTTPRequestHandler):
         self.send_response(404)
         self.end_headers()
 
+    def do_PATCH(self):
+        from .db import request_conns
+        import re
+
+        print("Received PATCH", self.path)
+
+        # PATCH /api/contracts/{id}
+        m = re.match(r"/api/contracts/(\d+)$", self.path)
+        if m:
+            print
+            contract_id = int(m.group(1))
+            content_length = int(self.headers.get("Content-Length", 0))
+            if content_length == 0:
+                print("len<0")
+                self.send_json_response({"error": "Empty body"}, status=400)
+                return
+            body = self.rfile.read(content_length)
+            try:
+                data = json.loads(body.decode("utf-8"))
+                if not isinstance(data, dict):
+                    print("not dict", repr(data))
+                    raise ValueError("Payload must be a JSON object")
+                # 허용 필드만 추출
+                allowed_fields = {
+                    "refresh_policy": int,
+                    "notes": str,
+                    #"user_updated_at": int,
+                    #"source_fetched_at": int,
+                    #"source_updated_at": int,
+                    #"deleted_at": int,
+                }
+                update_fields = {}
+                for k, v in data.items():
+                    if k in allowed_fields:
+                        expected_type = allowed_fields[k]
+                        if not isinstance(v, expected_type):
+                            raise ValueError(f"Field '{k}' must be {expected_type.__name__}")
+                        update_fields[k] = v
+                if not update_fields:
+                    raise ValueError("No valid fields to update")
+            except Exception as e:
+                print("Error parsing PATCH body:", e)
+                self.send_json_response({"error": f"Invalid JSON or fields: {e}"}, status=400)
+                return
+            # 동적 SQL 생성
+            update_fields["user_updated_at"] = now_ms()
+            set_clause = ", ".join([f"{k}=?" for k in update_fields.keys()])
+            values = list(update_fields.values()) + [contract_id]
+            sql = f"UPDATE contracts SET {set_clause} WHERE id=?"
+            print("Executing SQL:", sql, values)
+            with request_conns(readonly=False) as conn:
+                cur = conn.execute(sql, values)
+                updated = cur.rowcount
+            self.send_json_response({"status": "ok", "updated": updated, "fields": list(update_fields.keys())})
+            return
+
+        print("No matching PATCH handler")
+        self.send_response(404)
+        self.end_headers()
+        
     # 라벨 추가/제거 엔드포인트 완전 제거
     def send_header(self, keyword, value):
         # 모든 응답에 CORS 허용 헤더 추가
@@ -207,7 +270,7 @@ class RequestHandler(http.server.SimpleHTTPRequestHandler):
     def do_OPTIONS(self):
         self.send_response(204)
         self.send_header("Access-Control-Allow-Origin", "*")
-        self.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+        self.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS, PATCH, PUT, DELETE")
         self.send_header("Access-Control-Allow-Headers", "Content-Type, Authorization")
         self.end_headers()
 

@@ -6,7 +6,7 @@
 	"background": { "service_worker": "background.js", "type": "module" },
 	"content_scripts": [
 		{
-			"matches": ["__REPLACE_ME_ORIGIN__/*", "http://localhost:8000/*"],
+			"matches": ["http://the.source.com/*", "http://localhost:8000/*"],
 			"js": ["content.js"],
 			"run_at": "document_start"
 		}

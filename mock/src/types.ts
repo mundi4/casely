@@ -1,5 +1,7 @@
 // ContractDetail type for /api/mock/contract/detail
 export type ContractDetail = {
+	id: number;
+	businessWorkDstic: "1" | "2" | "3";
 	approvalLine: "LESS" | "EQUAL" | "GRATER";
 	positionNameAndRankName: string;
 	isSigned: boolean | null;
@@ -88,14 +90,7 @@ export interface ContractHistoryWorkflow extends ContractHistoryBase {
 export interface ContractHistoryAttachment extends ContractHistoryBase {
 	actionText: "파일등록";
 	type: "attachment";
-	contractDocList?: Array<{
-		path: string;
-		fileText: string;
-		fileName: string;
-		extension: string;
-		type: string;
-		fileId: string;
-	}>;
+	contractDocList?: (ContractAttachment | DocumentReviewFile)[];
 }
 
 export type ContractHistory = ContractHistoryMemo | ContractHistoryWorkflow | ContractHistoryAttachment;
@@ -134,17 +129,18 @@ export type DocumentReviewFile = {
 	fileText: string; // 파일에서 텍스트만 추출한건데 간단히 두세줄 문장 만들든지..
 	fileName: string; // 파일명. 예: "계약서_초안_v1.docx"
 	filepath: string; // base64로 인코딩된 파일명?
-	type: "REVIEW" | "TARGET"; // REVIEW | TARGET
+	type: "REVIEW" | "TARGET" | "contractAttachmentReview"; // REVIEW | TARGET
 	fileId: number; // 파일 아이디. 숫자.
 	isHide: boolean; //
 };
 
 export type ContractAttachment = {
 	path: string; // base64로 인코딩된 파일명?
+	fileText: string; // 파일에서 텍스트만 추출한건데 간단히 두세줄 문장 만들든지..
+	fileName: string; // 파일명. 예: "계약서_초안_v1.docx"
 	extension: string; // 확장자. 예: "docx", "pdf"
-	name: string; // 파일명. 예: "계약서_초안_v1.docx"
-	id: number; // 파일 아이디. 숫자.
-	type: "contractAttachmentReview";
+	type: "REVIEW" | "TARGET" | "contractAttachmentReview";
+	id: number | string; // 파일 아이디. 숫자.
 };
 
 export type ContractCategory = {
@@ -153,4 +149,3 @@ export type ContractCategory = {
 	type: "GUIDELINE"; // | "MANUAL" | "GUIDELINE/MANUAL"; // ???
 	parentId: 65;
 };
-

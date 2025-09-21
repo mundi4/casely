@@ -15,6 +15,7 @@ import json
 import sqlite3
 import time
 from typing import Any, Iterable, Optional, Tuple
+from server.constants import REFRESH_POLICY_NEVER
 
 
 # -------------------------------------------------
@@ -23,7 +24,7 @@ from typing import Any, Iterable, Optional, Tuple
 
 CASELY_DB_PATH = "casely.db"
 CASELY_APP_ID = 0x43415345  # 'CASE'
-CASE_TARGET_VER = 2  # 마이그레이션 반영
+CASE_TARGET_VER = 3  # 마이그레이션 반영
 
 
 def now_ms() -> int:
@@ -167,7 +168,7 @@ def _migrate_casely(conn: sqlite3.Connection) -> None:
     if cur_ver < 1:
         _set_application_id(conn, CASELY_APP_ID)
         conn.executescript(
-            """
+                """
 CREATE TABLE IF NOT EXISTS contracts (
     id                INTEGER PRIMARY KEY,
     detail_json       TEXT CHECK (detail_json IS NULL OR json_valid(detail_json)),
@@ -215,10 +216,18 @@ CREATE TABLE IF NOT EXISTS meta_data (
 CREATE INDEX IF NOT EXISTS idx_contracts_fetched ON contracts(source_fetched_at);
 CREATE INDEX IF NOT EXISTS idx_contracts_updated ON contracts(source_updated_at);
 CREATE INDEX IF NOT EXISTS idx_labels_last_updated ON labels(updated_at);
-        """
+            """
         )
         _set_user_version(conn, 1)
         cur_ver = 1
+
+    # v2 -> v3: Add refresh_policy column to contracts
+    if cur_ver < 3:
+        conn.execute("ALTER TABLE contracts ADD COLUMN refresh_policy INTEGER NOT NULL DEFAULT 0;")
+        _set_user_version(conn, 3)
+
+    # Always ensure index on refresh_policy exists (safe to run repeatedly)
+    conn.execute("CREATE INDEX IF NOT EXISTS idx_contracts_refresh_policy ON contracts(refresh_policy);")
 
 
 def init_all():
@@ -557,14 +566,14 @@ def casely_get_stale_contract_ids(conn, *, older_than_ms: int, limit: int) -> li
     fetched_at < older_than_ms 인 계약들을 오래된 순으로 최대 limit개 반환.
     """
     rows = conn.execute(
-        """
+    """
         SELECT id
         FROM contracts
-        WHERE (source_fetched_at IS NULL OR source_fetched_at < ?) AND deleted_at IS NULL
+        WHERE (source_fetched_at IS NULL OR source_fetched_at < ?) AND deleted_at IS NULL AND refresh_policy != ?
         ORDER BY source_fetched_at ASC, id ASC
         LIMIT ?
     """,
-        (older_than_ms, int(limit)),
+        (older_than_ms, REFRESH_POLICY_NEVER, int(limit)),
     ).fetchall()
     
     return [r["id"] for r in rows]
