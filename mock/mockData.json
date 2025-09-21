@@ -1,3882 +1,1382 @@
 {
   "contracts": [
-    [
-      14951,
-      {
-        "id": 14951,
-        "title": "유지보수 계약 703",
-        "description": "수정사항이 있어 연락드립니다.\n완전 급합니다...",
-        "approvalLine": "EQUAL",
-        "status": "REVIEW",
-        "businessWorkDstic": "3",
-        "businessWorkDsticText": "규정지침 + 매뉴얼",
-        "viewcode": "20250909-00083980",
-        "viewCode": "20250909-00083980",
-        "creatorList": [
-          {
-            "creator": "김철수",
-            "creatorDepartment": "정보개발부",
-            "creatorPosition": "팀장",
-            "positionNameAndRankName": "팀원[L3]",
-            "creatorEmail": "12345678@XXX.COM",
-            "displayName": "김철수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀장",
-        "creatorDepartment": "정보개발부",
-        "creatorEmail": "12345678@XXX.COM",
-        "reviewers": [
-          {
-            "name": "김영지",
-            "position": "변호사",
-            "department": "법률지원부",
-            "employeeNo": "3333333",
-            "email": "3333333@XXX.COM",
-            "memberId": 833333
-          },
-          {
-            "name": "이상민",
-            "position": "대리",
-            "department": "법률지원부",
-            "employeeNo": "2222222",
-            "email": "2222222@XXX.COM",
-            "memberId": 822222
-          }
-        ],
-        "createDate": "2025/09/09",
-        "labels": [
-          {
-            "color": "rgb(0, 255, 255, 255)",
-            "name": "검토완료",
-            "type": "PRIVATE",
-            "userId": 101664
-          }
-        ],
-        "reviewRequestDate": "2025/09/09",
-        "enforcementDate": "2025/09/26",
-        "receptionDate": "2025-09-13T14:17:17.351Z",
-        "replyDate": "2025-09-15T12:51:33.886Z",
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/09/09 23:13",
-            "contractDocList": []
-          },
-          {
-            "id": 2,
-            "actionText": "검토 완료",
-            "createTime": "2025/9/14/오후 5:06",
-            "contractDocList": []
-          },
-          {
-            "id": 3,
-            "actionText": "반려",
-            "createTime": "2025/9/14/오후 5:07",
-            "contractDocList": []
-          },
-          {
-            "id": 4,
-            "actionText": "검토 완료",
-            "createTime": "2025/9/14/오후 5:07",
-            "contractDocList": []
-          },
-          {
-            "id": 5,
-            "actionText": "반려",
-            "createTime": "2025/9/14/오후 5:07",
-            "contractDocList": []
-          },
-          {
-            "id": 6,
-            "actionText": "검토 완료",
-            "createTime": "2025/9/15/오후 9:51",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14952,
-      {
-        "id": 14952,
-        "title": "개발 용역 계약 732",
-        "description": "검토 요청합니다.\n빠른 검토 부탁드립니다.",
-        "approvalLine": "LESS",
-        "status": "REVIEW",
-        "businessWorkDstic": "2",
-        "businessWorkDsticText": "매뉴얼",
-        "viewcode": "20250814-00102879",
-        "viewCode": "20250814-00102879",
-        "creatorList": [
-          {
-            "creator": "박민수",
-            "creatorDepartment": "개인여신1부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L2]",
-            "creatorEmail": "3456789@XXX.COM",
-            "displayName": "박민수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀원",
-        "creatorDepartment": "개인여신1부",
-        "creatorEmail": "3456789@XXX.COM",
-        "reviewers": [
-          {
-            "name": "김영지",
-            "position": "변호사",
-            "department": "법률지원부",
-            "employeeNo": "3333333",
-            "email": "3333333@XXX.COM",
-            "memberId": 833333
-          }
-        ],
-        "createDate": "2025/08/14",
-        "labels": [
-          {
-            "color": "rgb(0, 255, 255, 255)",
-            "name": "검토완료",
-            "type": "PRIVATE",
-            "userId": 101664
-          }
-        ],
-        "reviewRequestDate": "2025/08/14",
-        "enforcementDate": "2025/08/23",
-        "receptionDate": "2025-08-15T23:45:38.506Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/14 22:36",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14953,
-      {
-        "id": 14953,
-        "title": "컨설팅 계약 663",
-        "description": "잘 부탁합니다.\n\n감사합니다.",
-        "approvalLine": "LESS",
-        "status": "REVIEW",
-        "businessWorkDstic": "2",
-        "businessWorkDsticText": "매뉴얼",
-        "viewcode": "20250813-00086153",
-        "viewCode": "20250813-00086153",
-        "creatorList": [
-          {
-            "creator": "김철수",
-            "creatorDepartment": "정보개발부",
-            "creatorPosition": "팀장",
-            "positionNameAndRankName": "팀원[L3]",
-            "creatorEmail": "12345678@XXX.COM",
-            "displayName": "김철수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀장",
-        "creatorDepartment": "정보개발부",
-        "creatorEmail": "12345678@XXX.COM",
-        "reviewers": [
-          {
-            "name": "이상민",
-            "position": "대리",
-            "department": "법률지원부",
-            "employeeNo": "2222222",
-            "email": "2222222@XXX.COM",
-            "memberId": 822222
-          },
-          {
-            "name": "김영지",
-            "position": "변호사",
-            "department": "법률지원부",
-            "employeeNo": "3333333",
-            "email": "3333333@XXX.COM",
-            "memberId": 833333
-          }
-        ],
-        "createDate": "2025/08/13",
-        "labels": [],
-        "reviewRequestDate": "2025/08/13",
-        "enforcementDate": "2025/08/21",
-        "receptionDate": "2025-08-14T21:00:03.491Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/14 08:23",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14954,
-      {
-        "id": 14954,
-        "title": "유지보수 계약 18",
-        "description": "수정사항이 있어 연락드립니다.\n완전 급합니다...",
-        "approvalLine": "GREATER",
-        "status": "FINISH",
-        "businessWorkDstic": "2",
-        "businessWorkDsticText": "매뉴얼",
-        "viewcode": "20250908-00096561",
-        "viewCode": "20250908-00096561",
-        "creatorList": [
-          {
-            "creator": "박민수",
-            "creatorDepartment": "개인여신1부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L2]",
-            "creatorEmail": "3456789@XXX.COM",
-            "displayName": "박민수 팀원[L2]"
-          },
-          {
-            "creator": "이영희",
-            "creatorDepartment": "기업제품부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L1]",
-            "creatorEmail": "2345678@XXX.COM",
-            "displayName": "이영희 팀원[L1]"
-          }
-        ],
-        "creatorPosition": "팀원",
-        "creatorDepartment": "개인여신1부",
-        "creatorEmail": "3456789@XXX.COM",
-        "reviewers": [
-          {
-            "name": "김영지",
-            "position": "변호사",
-            "department": "법률지원부",
-            "employeeNo": "3333333",
-            "email": "3333333@XXX.COM",
-            "memberId": 833333
-          }
-        ],
-        "createDate": "2025/09/08",
-        "labels": [],
-        "reviewRequestDate": "2025/09/08",
-        "enforcementDate": "2025/09/18",
-        "receptionDate": "2025-09-11T23:04:39.218Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "actionText": "검토완료",
-            "creator": "김영지",
-            "createTime": "2025/09/16 15:15",
-            "isShowComment": true,
-            "comment": " [강종필/법률지원부님께 (검토 승인1) 단계로 검토완료 했습니다.]",
-            "id": 149799,
-            "creatorDept": "법률지원부",
-            "creatorPosition": "/팀원",
-            "type": "workflow",
-            "extraInfo": {
-              "historyType": "history_itm_contract"
-            }
-          },
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/09/08 09:06",
-            "contractDocList": []
-          },
-          {
-            "id": 149800,
-            "actionText": "반려",
-            "createTime": "2025/9/15/오후 9:51",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14955,
-      {
-        "id": 14955,
-        "title": "신규 서비스 계약 445",
-        "description": "잘 부탁합니다.\n\n감사합니다.",
-        "approvalLine": "LESS",
-        "status": "완료",
-        "businessWorkDstic": "2",
-        "businessWorkDsticText": "매뉴얼",
-        "viewcode": "20250907-00061964",
-        "viewCode": "20250907-00061964",
-        "creatorList": [
-          {
-            "creator": "박민수",
-            "creatorDepartment": "개인여신1부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L2]",
-            "creatorEmail": "3456789@XXX.COM",
-            "displayName": "박민수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀원",
-        "creatorDepartment": "개인여신1부",
-        "creatorEmail": "3456789@XXX.COM",
-        "reviewers": [
-          {
-            "name": "김영지",
-            "position": "변호사",
-            "department": "법률지원부",
-            "employeeNo": "3333333",
-            "email": "3333333@XXX.COM",
-            "memberId": 833333
-          },
-          {
-            "name": "이상민",
-            "position": "대리",
-            "department": "법률지원부",
-            "employeeNo": "2222222",
-            "email": "2222222@XXX.COM",
-            "memberId": 822222
-          }
-        ],
-        "createDate": "2025/09/07",
-        "labels": [],
-        "reviewRequestDate": "2025/09/07",
-        "enforcementDate": "2025/09/17",
-        "receptionDate": "2025-09-12T10:12:58.530Z",
-        "replyDate": "2025-09-14T08:10:32.539Z",
-        "contractHistory": [
-          {
-            "actionText": "검토완료",
-            "creator": "김영지",
-            "createTime": "2025/09/16 20:16",
-            "isShowComment": true,
-            "comment": " [강종필/법률지원부님께 (검토 승인1) 단계로 검토완료 했습니다.]",
-            "id": 149799,
-            "creatorDept": "법률지원부",
-            "creatorPosition": "/팀원",
-            "type": "workflow",
-            "extraInfo": {
-              "historyType": "history_itm_contract"
-            }
-          },
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/09/08 07:30",
-            "contractDocList": []
-          },
-          {
-            "id": 149800,
-            "actionText": "검토 완료",
-            "createTime": "2025/9/14/오후 4:18",
-            "contractDocList": []
-          },
-          {
-            "id": 149801,
-            "actionText": "반려",
-            "createTime": "2025/9/14/오후 5:08",
-            "contractDocList": []
-          },
-          {
-            "id": 149802,
-            "actionText": "검토 완료",
-            "createTime": "2025/9/14/오후 5:08",
-            "contractDocList": []
-          },
-          {
-            "id": 149803,
-            "actionText": "반려",
-            "createTime": "2025/9/14/오후 5:09",
-            "contractDocList": []
-          },
-          {
-            "id": 149804,
-            "actionText": "검토 완료",
-            "createTime": "2025/9/14/오후 5:09",
-            "contractDocList": []
-          },
-          {
-            "id": 149805,
-            "actionText": "반려",
-            "createTime": "2025/9/14/오후 5:09",
-            "contractDocList": []
-          },
-          {
-            "id": 149806,
-            "actionText": "검토 완료",
-            "createTime": "2025/9/14/오후 5:09",
-            "contractDocList": []
-          },
-          {
-            "id": 149807,
-            "actionText": "반려",
-            "createTime": "2025/9/14/오후 5:09",
-            "contractDocList": []
-          },
-          {
-            "id": 149808,
-            "actionText": "검토 완료",
-            "createTime": "2025/9/14/오후 5:09",
-            "contractDocList": []
-          },
-          {
-            "id": 149809,
-            "actionText": "반려",
-            "createTime": "2025/9/14/오후 5:09",
-            "contractDocList": []
-          },
-          {
-            "id": 149810,
-            "actionText": "검토 완료",
-            "createTime": "2025/9/14/오후 5:09",
-            "contractDocList": []
-          },
-          {
-            "id": 149811,
-            "actionText": "반려",
-            "createTime": "2025/9/14/오후 5:10",
-            "contractDocList": []
-          },
-          {
-            "id": 149812,
-            "actionText": "검토 완료",
-            "createTime": "2025/9/14/오후 5:10",
-            "contractDocList": []
-          },
-          {
-            "id": 149813,
-            "actionText": "반려",
-            "createTime": "2025/9/14/오후 5:10",
-            "contractDocList": []
-          },
-          {
-            "id": 149814,
-            "actionText": "검토 완료",
-            "createTime": "2025/9/14/오후 5:10",
-            "contractDocList": []
-          },
-          {
-            "id": 149815,
-            "actionText": "반려",
-            "createTime": "2025/9/14/오후 5:10",
-            "contractDocList": []
-          },
-          {
-            "id": 149816,
-            "actionText": "검토 완료",
-            "createTime": "2025/9/14/오후 5:10",
-            "contractDocList": []
-          },
-          {
-            "id": 149817,
-            "actionText": "반려",
-            "createTime": "2025/9/14/오후 5:10",
-            "contractDocList": []
-          },
-          {
-            "id": 149818,
-            "actionText": "검토 완료",
-            "createTime": "2025/9/14/오후 5:10",
-            "contractDocList": []
-          },
-          {
-            "id": 149819,
-            "actionText": "반려",
-            "createTime": "2025/9/14/오후 5:10",
-            "contractDocList": []
-          },
-          {
-            "id": 149820,
-            "actionText": "검토 완료",
-            "createTime": "2025/9/14/오후 5:10",
-            "contractDocList": []
-          },
-          {
-            "id": 149821,
-            "actionText": "반려",
-            "createTime": "2025/9/14/오후 5:10",
-            "contractDocList": []
-          },
-          {
-            "id": 149822,
-            "actionText": "검토 완료",
-            "createTime": "2025/9/14/오후 5:10",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": [],
-        "stepText": "완료"
-      }
-    ],
-    [
-      14956,
-      {
-        "id": 14956,
-        "title": "컨설팅 계약 625",
-        "description": "긴급 검토 요청드립니다.\n오늘 중으로 회신 바랍니다.",
-        "approvalLine": "LESS",
-        "status": "REVIEW",
-        "businessWorkDstic": "2",
-        "businessWorkDsticText": "매뉴얼",
-        "viewcode": "20250912-00014956",
-        "viewCode": "20250912-00014956",
-        "creatorList": [
-          {
-            "creator": "이영희",
-            "creatorDepartment": "기업제품부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L1]",
-            "creatorEmail": "2345678@XXX.COM",
-            "displayName": "이영희 팀원[L1]"
-          }
-        ],
-        "creatorPosition": "팀원",
-        "creatorDepartment": "기업제품부",
-        "creatorEmail": "2345678@XXX.COM",
-        "reviewers": [
-          {
-            "name": "안미라",
-            "position": "과장",
-            "department": "법률지원부",
-            "employeeNo": "1111111",
-            "email": "1111111@XXX.COM",
-            "memberId": 811111
-          },
-          {
-            "name": "이상민",
-            "position": "대리",
-            "department": "법률지원부",
-            "employeeNo": "2222222",
-            "email": "2222222@XXX.COM",
-            "memberId": 822222
-          }
-        ],
-        "createDate": "2025/09/12",
-        "labels": [],
-        "reviewRequestDate": "2025/09/12",
-        "enforcementDate": "2025/09/01",
-        "receptionDate": "2025-08-26T11:14:00.568Z",
-        "replyDate": "2025-09-15T12:51:15.897Z",
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/26 10:11",
-            "contractDocList": []
-          },
-          {
-            "id": 2,
-            "actionText": "검토 완료",
-            "createTime": "2025/9/15/오후 9:51",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14957,
-      {
-        "id": 14957,
-        "title": "컨설팅 계약 679",
-        "description": "검토 요청합니다.\n빠른 검토 부탁드립니다.",
-        "approvalLine": "EQUAL",
-        "status": "REVIEW",
-        "businessWorkDstic": "2",
-        "businessWorkDsticText": "매뉴얼",
-        "viewcode": "20250912-00014957",
-        "viewCode": "20250912-00014957",
-        "creatorList": [
-          {
-            "creator": "김철수",
-            "creatorDepartment": "정보개발부",
-            "creatorPosition": "팀장",
-            "positionNameAndRankName": "팀원[L3]",
-            "creatorEmail": "12345678@XXX.COM",
-            "displayName": "김철수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀장",
-        "creatorDepartment": "정보개발부",
-        "creatorEmail": "12345678@XXX.COM",
-        "reviewers": [
-          {
-            "name": "김영지",
-            "position": "변호사",
-            "department": "법률지원부",
-            "employeeNo": "3333333",
-            "email": "3333333@XXX.COM",
-            "memberId": 833333
-          }
-        ],
-        "createDate": "2025/09/12",
-        "labels": [],
-        "reviewRequestDate": "2025/09/12",
-        "enforcementDate": "2025/09/12",
-        "receptionDate": "2025-09-04T13:11:39.359Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/09/01 06:43",
-            "contractDocList": []
-          },
-          {
-            "id": 2,
-            "actionText": "검토 완료",
-            "createTime": "2025/9/14/오후 5:16",
-            "contractDocList": []
-          },
-          {
-            "id": 3,
-            "actionText": "반려",
-            "createTime": "2025/9/15/오후 9:51",
-            "contractDocList": []
-          },
-          {
-            "id": 4,
-            "actionText": "검토 완료",
-            "createTime": "2025/9/15/오후 9:51",
-            "contractDocList": []
-          },
-          {
-            "id": 5,
-            "actionText": "반려",
-            "createTime": "2025/9/15/오후 9:51",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14958,
-      {
-        "id": 14958,
-        "title": "라이선스 계약 189",
-        "description": "긴급 검토 요청드립니다.\n오늘 중으로 회신 바랍니다.",
-        "approvalLine": "GREATER",
-        "status": "REVIEW",
-        "businessWorkDstic": "3",
-        "businessWorkDsticText": "규정지침 + 매뉴얼",
-        "viewcode": "20250912-00014958",
-        "viewCode": "20250912-00014958",
-        "creatorList": [
-          {
-            "creator": "김철수",
-            "creatorDepartment": "정보개발부",
-            "creatorPosition": "팀장",
-            "positionNameAndRankName": "팀원[L3]",
-            "creatorEmail": "12345678@XXX.COM",
-            "displayName": "김철수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀장",
-        "creatorDepartment": "정보개발부",
-        "creatorEmail": "12345678@XXX.COM",
-        "reviewers": [
-          {
-            "name": "김영지",
-            "position": "변호사",
-            "department": "법률지원부",
-            "employeeNo": "3333333",
-            "email": "3333333@XXX.COM",
-            "memberId": 833333
-          }
-        ],
-        "createDate": "2025/09/12",
-        "labels": [],
-        "reviewRequestDate": "2025/09/12",
-        "enforcementDate": "2025/08/27",
-        "receptionDate": "2025-08-15T06:25:08.084Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/14 15:44",
-            "contractDocList": []
-          },
-          {
-            "id": 2,
-            "actionText": "검토 완료",
-            "createTime": "2025/9/15/오후 9:51",
-            "contractDocList": []
-          },
-          {
-            "id": 3,
-            "actionText": "반려",
-            "createTime": "2025/9/15/오후 9:51",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14959,
-      {
-        "id": 14959,
-        "title": "컨설팅 계약 380",
-        "description": "수정사항이 있어 연락드립니다.\n완전 급합니다...",
-        "approvalLine": "LESS",
-        "status": "REVIEW",
-        "businessWorkDstic": "2",
-        "businessWorkDsticText": "매뉴얼",
-        "viewcode": "20250912-00014959",
-        "viewCode": "20250912-00014959",
-        "creatorList": [
-          {
-            "creator": "이영희",
-            "creatorDepartment": "기업제품부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L1]",
-            "creatorEmail": "2345678@XXX.COM",
-            "displayName": "이영희 팀원[L1]"
-          }
-        ],
-        "creatorPosition": "팀원",
-        "creatorDepartment": "기업제품부",
-        "creatorEmail": "2345678@XXX.COM",
-        "reviewers": [
-          {
-            "name": "김영지",
-            "position": "변호사",
-            "department": "법률지원부",
-            "employeeNo": "3333333",
-            "email": "3333333@XXX.COM",
-            "memberId": 833333
-          }
-        ],
-        "createDate": "2025/09/12",
-        "labels": [
-          {
-            "color": "rgb(0, 255, 255, 255)",
-            "name": "검토완료",
-            "type": "PRIVATE",
-            "userId": 101664
-          }
-        ],
-        "reviewRequestDate": "2025/09/12",
-        "enforcementDate": null,
-        "receptionDate": "2025-08-26T16:40:40.752Z",
-        "replyDate": "2025-09-15T12:51:56.952Z",
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/26 12:01",
-            "contractDocList": []
-          },
-          {
-            "id": 2,
-            "actionText": "검토 완료",
-            "createTime": "2025/9/14/오후 5:16",
-            "contractDocList": []
-          },
-          {
-            "id": 3,
-            "actionText": "반려",
-            "createTime": "2025/9/14/오후 7:26",
-            "contractDocList": []
-          },
-          {
-            "id": 4,
-            "actionText": "검토 완료",
-            "createTime": "2025/9/15/오후 9:51",
-            "contractDocList": []
-          },
-          {
-            "id": 5,
-            "actionText": "반려",
-            "createTime": "2025/9/15/오후 9:51",
-            "contractDocList": []
-          },
-          {
-            "id": 6,
-            "actionText": "검토 완료",
-            "createTime": "2025/9/15/오후 9:51",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14960,
-      {
-        "id": 14960,
-        "title": "컨설팅 계약 937",
-        "description": "수정사항이 있어 연락드립니다.\n완전 급합니다...",
-        "approvalLine": "LESS",
-        "status": "FINISH",
-        "businessWorkDstic": "2",
-        "businessWorkDsticText": "매뉴얼",
-        "viewcode": "20250912-00014960",
-        "viewCode": "20250912-00014960",
-        "creatorList": [
-          {
-            "creator": "김철수",
-            "creatorDepartment": "정보개발부",
-            "creatorPosition": "팀장",
-            "positionNameAndRankName": "팀원[L3]",
-            "creatorEmail": "12345678@XXX.COM",
-            "displayName": "김철수 팀원[L2]"
-          },
-          {
-            "creator": "이영희",
-            "creatorDepartment": "기업제품부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L1]",
-            "creatorEmail": "2345678@XXX.COM",
-            "displayName": "이영희 팀원[L1]"
-          }
-        ],
-        "creatorPosition": "팀장",
-        "creatorDepartment": "정보개발부",
-        "creatorEmail": "12345678@XXX.COM",
-        "reviewers": [
-          {
-            "name": "김영지",
-            "position": "변호사",
-            "department": "법률지원부",
-            "employeeNo": "3333333",
-            "email": "3333333@XXX.COM",
-            "memberId": 833333
-          }
-        ],
-        "createDate": "2025/09/12",
-        "labels": [
-          {
-            "color": "rgb(0, 255, 255, 255)",
-            "name": "검토완료",
-            "type": "PRIVATE",
-            "userId": 101664
-          }
-        ],
-        "reviewRequestDate": "2025/09/12",
-        "enforcementDate": "2025/08/28",
-        "receptionDate": "2025-08-18T11:36:43.079Z",
-        "replyDate": "2025-08-19T10:40:04.672Z",
-        "contractHistory": [
-          {
-            "actionText": "검토완료",
-            "creator": "김영지",
-            "createTime": "2025/08/19 19:40",
-            "isShowComment": true,
-            "comment": " [강종필/법률지원부님께 (검토 승인1) 단계로 검토완료 했습니다.]",
-            "id": 149799,
-            "creatorDept": "법률지원부",
-            "creatorPosition": "/팀원",
-            "type": "workflow",
-            "extraInfo": {
-              "historyType": "history_itm_contract"
-            }
-          },
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/16 18:36",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14961,
-      {
-        "id": 14961,
-        "title": "컨설팅 계약 615",
-        "description": "잘 부탁합니다.\n\n감사합니다.",
-        "approvalLine": "EQUAL",
-        "status": "REVIEW",
-        "businessWorkDstic": "2",
-        "businessWorkDsticText": "매뉴얼",
-        "viewcode": "20250912-00014961",
-        "viewCode": "20250912-00014961",
-        "creatorList": [
-          {
-            "creator": "박민수",
-            "creatorDepartment": "개인여신1부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L2]",
-            "creatorEmail": "3456789@XXX.COM",
-            "displayName": "박민수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀원",
-        "creatorDepartment": "개인여신1부",
-        "creatorEmail": "3456789@XXX.COM",
-        "reviewers": [
-          {
-            "name": "김영지",
-            "position": "변호사",
-            "department": "법률지원부",
-            "employeeNo": "3333333",
-            "email": "3333333@XXX.COM",
-            "memberId": 833333
-          }
-        ],
-        "createDate": "2025/09/12",
-        "labels": [
-          {
-            "color": "rgb(0, 255, 255, 255)",
-            "name": "검토완료",
-            "type": "PRIVATE",
-            "userId": 101664
-          }
-        ],
-        "reviewRequestDate": "2025/09/12",
-        "enforcementDate": "2025/08/26",
-        "receptionDate": "2025-08-26T03:47:49.114Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/22 01:13",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14962,
-      {
-        "id": 14962,
-        "title": "개발 용역 계약 639",
-        "description": "검토가 필요합니다.\n내일 시행",
-        "approvalLine": "GREATER",
-        "status": "REVIEW",
-        "businessWorkDstic": "2",
-        "businessWorkDsticText": "매뉴얼",
-        "viewcode": "20250912-00014962",
-        "viewCode": "20250912-00014962",
-        "creatorList": [
-          {
-            "creator": "이영희",
-            "creatorDepartment": "기업제품부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L1]",
-            "creatorEmail": "2345678@XXX.COM",
-            "displayName": "이영희 팀원[L1]"
-          }
-        ],
-        "creatorPosition": "팀원",
-        "creatorDepartment": "기업제품부",
-        "creatorEmail": "2345678@XXX.COM",
-        "reviewers": [
-          {
-            "name": "안미라",
-            "position": "과장",
-            "department": "법률지원부",
-            "employeeNo": "1111111",
-            "email": "1111111@XXX.COM",
-            "memberId": 811111
-          }
-        ],
-        "createDate": "2025/09/12",
-        "labels": [],
-        "reviewRequestDate": "2025/09/12",
-        "enforcementDate": "2025/09/16",
-        "receptionDate": "2025-09-02T00:51:06.325Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/30 13:14",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14963,
-      {
-        "id": 14963,
-        "title": "라이선스 계약 511",
-        "description": "검토가 필요합니다.\n내일 시행",
-        "approvalLine": "EQUAL",
-        "status": "REVIEW",
-        "businessWorkDstic": "3",
-        "businessWorkDsticText": "규정지침 + 매뉴얼",
-        "viewcode": "20250912-00014963",
-        "viewCode": "20250912-00014963",
-        "creatorList": [
-          {
-            "creator": "이영희",
-            "creatorDepartment": "기업제품부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L1]",
-            "creatorEmail": "2345678@XXX.COM",
-            "displayName": "이영희 팀원[L1]"
-          }
-        ],
-        "creatorPosition": "팀원",
-        "creatorDepartment": "기업제품부",
-        "creatorEmail": "2345678@XXX.COM",
-        "reviewers": [
-          {
-            "name": "안미라",
-            "position": "과장",
-            "department": "법률지원부",
-            "employeeNo": "1111111",
-            "email": "1111111@XXX.COM",
-            "memberId": 811111
-          }
-        ],
-        "createDate": "2025/09/12",
-        "labels": [],
-        "reviewRequestDate": "2025/09/12",
-        "enforcementDate": "2025/08/22",
-        "receptionDate": "2025-08-19T20:43:32.869Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/16 14:04",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14964,
-      {
-        "id": 14964,
-        "title": "신규 서비스 계약 872",
-        "description": "긴급 검토 요청드립니다.\n오늘 중으로 회신 바랍니다.",
-        "approvalLine": "GREATER",
-        "status": "FINISH",
-        "businessWorkDstic": "3",
-        "businessWorkDsticText": "규정지침 + 매뉴얼",
-        "viewcode": "20250912-00014964",
-        "viewCode": "20250912-00014964",
-        "creatorList": [
-          {
-            "creator": "김철수",
-            "creatorDepartment": "정보개발부",
-            "creatorPosition": "팀장",
-            "positionNameAndRankName": "팀원[L3]",
-            "creatorEmail": "12345678@XXX.COM",
-            "displayName": "김철수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀장",
-        "creatorDepartment": "정보개발부",
-        "creatorEmail": "12345678@XXX.COM",
-        "reviewers": [
-          {
-            "name": "안미라",
-            "position": "과장",
-            "department": "법률지원부",
-            "employeeNo": "1111111",
-            "email": "1111111@XXX.COM",
-            "memberId": 811111
-          }
-        ],
-        "createDate": "2025/09/12",
-        "labels": [
-          {
-            "color": "rgb(0, 255, 255, 255)",
-            "name": "검토완료",
-            "type": "PRIVATE",
-            "userId": 101664
-          }
-        ],
-        "reviewRequestDate": "2025/09/12",
-        "enforcementDate": "2025/09/06",
-        "receptionDate": "2025-09-04T14:51:41.740Z",
-        "replyDate": "2025-09-08T04:42:03.453Z",
-        "contractHistory": [
-          {
-            "actionText": "검토완료",
-            "creator": "안미라",
-            "createTime": "2025/09/08 13:42",
-            "isShowComment": true,
-            "comment": " [강종필/법률지원부님께 (검토 승인1) 단계로 검토완료 했습니다.]",
-            "id": 149799,
-            "creatorDept": "법률지원부",
-            "creatorPosition": "/팀원",
-            "type": "workflow",
-            "extraInfo": {
-              "historyType": "history_itm_contract"
-            }
-          },
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/09/03 14:37",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14965,
-      {
-        "id": 14965,
-        "title": "개발 용역 계약 958",
-        "description": "검토 요청합니다.\n빠른 검토 부탁드립니다.",
-        "approvalLine": "GREATER",
-        "status": "FINISH",
-        "businessWorkDstic": "3",
-        "businessWorkDsticText": "규정지침 + 매뉴얼",
-        "viewcode": "20250912-00014965",
-        "viewCode": "20250912-00014965",
-        "creatorList": [
-          {
-            "creator": "박민수",
-            "creatorDepartment": "개인여신1부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L2]",
-            "creatorEmail": "3456789@XXX.COM",
-            "displayName": "박민수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀원",
-        "creatorDepartment": "개인여신1부",
-        "creatorEmail": "3456789@XXX.COM",
-        "reviewers": [
-          {
-            "name": "안미라",
-            "position": "과장",
-            "department": "법률지원부",
-            "employeeNo": "1111111",
-            "email": "1111111@XXX.COM",
-            "memberId": 811111
-          }
-        ],
-        "createDate": "2025/09/12",
-        "labels": [],
-        "reviewRequestDate": "2025/09/12",
-        "enforcementDate": null,
-        "receptionDate": "2025-09-02T14:52:12.499Z",
-        "replyDate": "2025-09-07T15:17:07.434Z",
-        "contractHistory": [
-          {
-            "actionText": "검토완료",
-            "creator": "안미라",
-            "createTime": "2025/09/08 00:17",
-            "isShowComment": true,
-            "comment": " [강종필/법률지원부님께 (검토 승인1) 단계로 검토완료 했습니다.]",
-            "id": 149799,
-            "creatorDept": "법률지원부",
-            "creatorPosition": "/팀원",
-            "type": "workflow",
-            "extraInfo": {
-              "historyType": "history_itm_contract"
-            }
-          },
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/29 16:36",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14966,
-      {
-        "id": 14966,
-        "title": "라이선스 계약 45",
-        "description": "수정사항이 있어 연락드립니다.\n완전 급합니다...",
-        "approvalLine": "GREATER",
-        "status": "FINISH",
-        "businessWorkDstic": "2",
-        "businessWorkDsticText": "매뉴얼",
-        "viewcode": "20250912-00014966",
-        "viewCode": "20250912-00014966",
-        "creatorList": [
-          {
-            "creator": "이영희",
-            "creatorDepartment": "기업제품부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L1]",
-            "creatorEmail": "2345678@XXX.COM",
-            "displayName": "이영희 팀원[L1]"
-          }
-        ],
-        "creatorPosition": "팀원",
-        "creatorDepartment": "기업제품부",
-        "creatorEmail": "2345678@XXX.COM",
-        "reviewers": [
-          {
-            "name": "이상민",
-            "position": "대리",
-            "department": "법률지원부",
-            "employeeNo": "2222222",
-            "email": "2222222@XXX.COM",
-            "memberId": 822222
-          }
-        ],
-        "createDate": "2025/09/12",
-        "labels": [],
-        "reviewRequestDate": "2025/09/12",
-        "enforcementDate": "2025/09/18",
-        "receptionDate": "2025-09-12T05:42:41.376Z",
-        "replyDate": "2025-09-14T20:47:57.311Z",
-        "contractHistory": [
-          {
-            "actionText": "검토완료",
-            "creator": "이상민",
-            "createTime": "2025/09/15 05:47",
-            "isShowComment": true,
-            "comment": " [강종필/법률지원부님께 (검토 승인1) 단계로 검토완료 했습니다.]",
-            "id": 149799,
-            "creatorDept": "법률지원부",
-            "creatorPosition": "/팀원",
-            "type": "workflow",
-            "extraInfo": {
-              "historyType": "history_itm_contract"
-            }
-          },
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/09/09 12:17",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14967,
-      {
-        "id": 14967,
-        "title": "유지보수 계약 173",
-        "description": "검토가 필요합니다.\n내일 시행",
-        "approvalLine": "GREATER",
-        "status": "REVIEW",
-        "businessWorkDstic": "3",
-        "businessWorkDsticText": "규정지침 + 매뉴얼",
-        "viewcode": "20250912-00014967",
-        "viewCode": "20250912-00014967",
-        "creatorList": [
-          {
-            "creator": "박민수",
-            "creatorDepartment": "개인여신1부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L2]",
-            "creatorEmail": "3456789@XXX.COM",
-            "displayName": "박민수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀원",
-        "creatorDepartment": "개인여신1부",
-        "creatorEmail": "3456789@XXX.COM",
-        "reviewers": [
-          {
-            "name": "안미라",
-            "position": "과장",
-            "department": "법률지원부",
-            "employeeNo": "1111111",
-            "email": "1111111@XXX.COM",
-            "memberId": 811111
-          },
-          {
-            "name": "이상민",
-            "position": "대리",
-            "department": "법률지원부",
-            "employeeNo": "2222222",
-            "email": "2222222@XXX.COM",
-            "memberId": 822222
-          }
-        ],
-        "createDate": "2025/09/12",
-        "labels": [],
-        "reviewRequestDate": "2025/09/12",
-        "enforcementDate": "2025/09/17",
-        "receptionDate": "2025-09-14T10:45:37.506Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/09/11 09:51",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14968,
-      {
-        "id": 14968,
-        "title": "신규 서비스 계약 345",
-        "description": "수정사항이 있어 연락드립니다.\n완전 급합니다...",
-        "approvalLine": "GREATER",
-        "status": "REVIEW",
-        "businessWorkDstic": "3",
-        "businessWorkDsticText": "규정지침 + 매뉴얼",
-        "viewcode": "20250912-00014968",
-        "viewCode": "20250912-00014968",
-        "creatorList": [
-          {
-            "creator": "김철수",
-            "creatorDepartment": "정보개발부",
-            "creatorPosition": "팀장",
-            "positionNameAndRankName": "팀원[L3]",
-            "creatorEmail": "12345678@XXX.COM",
-            "displayName": "김철수 팀원[L2]"
-          },
-          {
-            "creator": "이영희",
-            "creatorDepartment": "기업제품부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L1]",
-            "creatorEmail": "2345678@XXX.COM",
-            "displayName": "이영희 팀원[L1]"
-          }
-        ],
-        "creatorPosition": "팀장",
-        "creatorDepartment": "정보개발부",
-        "creatorEmail": "12345678@XXX.COM",
-        "reviewers": [
-          {
-            "name": "김영지",
-            "position": "변호사",
-            "department": "법률지원부",
-            "employeeNo": "3333333",
-            "email": "3333333@XXX.COM",
-            "memberId": 833333
-          },
-          {
-            "name": "안미라",
-            "position": "과장",
-            "department": "법률지원부",
-            "employeeNo": "1111111",
-            "email": "1111111@XXX.COM",
-            "memberId": 811111
-          }
-        ],
-        "createDate": "2025/09/12",
-        "labels": [],
-        "reviewRequestDate": "2025/09/12",
-        "enforcementDate": null,
-        "receptionDate": "2025-09-09T21:35:40.238Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/09/09 10:35",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": true,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14969,
-      {
-        "id": 14969,
-        "title": "라이선스 계약 958",
-        "description": "긴급 검토 요청드립니다.\n오늘 중으로 회신 바랍니다.",
-        "approvalLine": "GREATER",
-        "status": "FINISH",
-        "businessWorkDstic": "2",
-        "businessWorkDsticText": "매뉴얼",
-        "viewcode": "20250912-00014969",
-        "viewCode": "20250912-00014969",
-        "creatorList": [
-          {
-            "creator": "박민수",
-            "creatorDepartment": "개인여신1부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L2]",
-            "creatorEmail": "3456789@XXX.COM",
-            "displayName": "박민수 팀원[L2]"
-          },
-          {
-            "creator": "이영희",
-            "creatorDepartment": "기업제품부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L1]",
-            "creatorEmail": "2345678@XXX.COM",
-            "displayName": "이영희 팀원[L1]"
-          }
-        ],
-        "creatorPosition": "팀원",
-        "creatorDepartment": "개인여신1부",
-        "creatorEmail": "3456789@XXX.COM",
-        "reviewers": [
-          {
-            "name": "이상민",
-            "position": "대리",
-            "department": "법률지원부",
-            "employeeNo": "2222222",
-            "email": "2222222@XXX.COM",
-            "memberId": 822222
-          }
-        ],
-        "createDate": "2025/09/12",
-        "labels": [],
-        "reviewRequestDate": "2025/09/12",
-        "enforcementDate": "2025/09/01",
-        "receptionDate": "2025-08-17T14:31:36.508Z",
-        "replyDate": "2025-08-26T07:44:21.252Z",
-        "contractHistory": [
-          {
-            "actionText": "검토완료",
-            "creator": "이상민",
-            "createTime": "2025/08/26 16:44",
-            "isShowComment": true,
-            "comment": " [강종필/법률지원부님께 (검토 승인1) 단계로 검토완료 했습니다.]",
-            "id": 149799,
-            "creatorDept": "법률지원부",
-            "creatorPosition": "/팀원",
-            "type": "workflow",
-            "extraInfo": {
-              "historyType": "history_itm_contract"
-            }
-          },
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/16 20:57",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14970,
-      {
-        "id": 14970,
-        "title": "라이선스 계약 766",
-        "description": "검토가 필요합니다.\n내일 시행",
-        "approvalLine": "LESS",
-        "status": "FINISH",
-        "businessWorkDstic": "3",
-        "businessWorkDsticText": "규정지침 + 매뉴얼",
-        "viewcode": "20250912-00014970",
-        "viewCode": "20250912-00014970",
-        "creatorList": [
-          {
-            "creator": "김철수",
-            "creatorDepartment": "정보개발부",
-            "creatorPosition": "팀장",
-            "positionNameAndRankName": "팀원[L3]",
-            "creatorEmail": "12345678@XXX.COM",
-            "displayName": "김철수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀장",
-        "creatorDepartment": "정보개발부",
-        "creatorEmail": "12345678@XXX.COM",
-        "reviewers": [
-          {
-            "name": "이상민",
-            "position": "대리",
-            "department": "법률지원부",
-            "employeeNo": "2222222",
-            "email": "2222222@XXX.COM",
-            "memberId": 822222
-          }
-        ],
-        "createDate": "2025/09/12",
-        "labels": [
-          {
-            "color": "rgb(0, 255, 255, 255)",
-            "name": "검토완료",
-            "type": "PRIVATE",
-            "userId": 101664
-          }
-        ],
-        "reviewRequestDate": "2025/09/12",
-        "enforcementDate": "2025/08/28",
-        "receptionDate": "2025-08-25T11:37:17.679Z",
-        "replyDate": "2025-09-02T02:58:16.118Z",
-        "contractHistory": [
-          {
-            "actionText": "검토완료",
-            "creator": "이상민",
-            "createTime": "2025/09/02 11:58",
-            "isShowComment": true,
-            "comment": " [강종필/법률지원부님께 (검토 승인1) 단계로 검토완료 했습니다.]",
-            "id": 149799,
-            "creatorDept": "법률지원부",
-            "creatorPosition": "/팀원",
-            "type": "workflow",
-            "extraInfo": {
-              "historyType": "history_itm_contract"
-            }
-          },
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/21 10:48",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14971,
-      {
-        "id": 14971,
-        "title": "신규 서비스 계약 964",
-        "description": "검토가 필요합니다.\n내일 시행",
-        "approvalLine": "LESS",
-        "status": "REVIEW",
-        "businessWorkDstic": "3",
-        "businessWorkDsticText": "규정지침 + 매뉴얼",
-        "viewcode": "20250912-00014971",
-        "viewCode": "20250912-00014971",
-        "creatorList": [
-          {
-            "creator": "김철수",
-            "creatorDepartment": "정보개발부",
-            "creatorPosition": "팀장",
-            "positionNameAndRankName": "팀원[L3]",
-            "creatorEmail": "12345678@XXX.COM",
-            "displayName": "김철수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀장",
-        "creatorDepartment": "정보개발부",
-        "creatorEmail": "12345678@XXX.COM",
-        "reviewers": [
-          {
-            "name": "이상민",
-            "position": "대리",
-            "department": "법률지원부",
-            "employeeNo": "2222222",
-            "email": "2222222@XXX.COM",
-            "memberId": 822222
-          },
-          {
-            "name": "안미라",
-            "position": "과장",
-            "department": "법률지원부",
-            "employeeNo": "1111111",
-            "email": "1111111@XXX.COM",
-            "memberId": 811111
-          }
-        ],
-        "createDate": "2025/09/12",
-        "labels": [
-          {
-            "color": "rgb(0, 255, 255, 255)",
-            "name": "검토완료",
-            "type": "PRIVATE",
-            "userId": 101664
-          }
-        ],
-        "reviewRequestDate": "2025/09/12",
-        "enforcementDate": "2025/08/19",
-        "receptionDate": "2025-08-17T08:01:09.871Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/14 13:25",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14972,
-      {
-        "id": 14972,
-        "title": "유지보수 계약 995",
-        "description": "잘 부탁합니다.\n\n감사합니다.",
-        "approvalLine": "LESS",
-        "status": "REVIEW",
-        "businessWorkDstic": "3",
-        "businessWorkDsticText": "규정지침 + 매뉴얼",
-        "viewcode": "20250912-00014972",
-        "viewCode": "20250912-00014972",
-        "creatorList": [
-          {
-            "creator": "김철수",
-            "creatorDepartment": "정보개발부",
-            "creatorPosition": "팀장",
-            "positionNameAndRankName": "팀원[L3]",
-            "creatorEmail": "12345678@XXX.COM",
-            "displayName": "김철수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀장",
-        "creatorDepartment": "정보개발부",
-        "creatorEmail": "12345678@XXX.COM",
-        "reviewers": [
-          {
-            "name": "김영지",
-            "position": "변호사",
-            "department": "법률지원부",
-            "employeeNo": "3333333",
-            "email": "3333333@XXX.COM",
-            "memberId": 833333
-          }
-        ],
-        "createDate": "2025/09/12",
-        "labels": [
-          {
-            "color": "rgb(0, 255, 255, 255)",
-            "name": "검토완료",
-            "type": "PRIVATE",
-            "userId": 101664
-          }
-        ],
-        "reviewRequestDate": "2025/09/12",
-        "enforcementDate": "2025/09/15",
-        "receptionDate": "2025-09-03T03:55:35.143Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/31 19:01",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": true,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14973,
-      {
-        "id": 14973,
-        "title": "컨설팅 계약 45",
-        "description": "긴급 검토 요청드립니다.\n오늘 중으로 회신 바랍니다.",
-        "approvalLine": "EQUAL",
-        "status": "FINISH",
-        "businessWorkDstic": "2",
-        "businessWorkDsticText": "매뉴얼",
-        "viewcode": "20250912-00014973",
-        "viewCode": "20250912-00014973",
-        "creatorList": [
-          {
-            "creator": "박민수",
-            "creatorDepartment": "개인여신1부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L2]",
-            "creatorEmail": "3456789@XXX.COM",
-            "displayName": "박민수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀원",
-        "creatorDepartment": "개인여신1부",
-        "creatorEmail": "3456789@XXX.COM",
-        "reviewers": [
-          {
-            "name": "이상민",
-            "position": "대리",
-            "department": "법률지원부",
-            "employeeNo": "2222222",
-            "email": "2222222@XXX.COM",
-            "memberId": 822222
-          },
-          {
-            "name": "김영지",
-            "position": "변호사",
-            "department": "법률지원부",
-            "employeeNo": "3333333",
-            "email": "3333333@XXX.COM",
-            "memberId": 833333
-          }
-        ],
-        "createDate": "2025/09/12",
-        "labels": [],
-        "reviewRequestDate": "2025/09/12",
-        "enforcementDate": "2025/09/01",
-        "receptionDate": "2025-08-20T14:05:02.142Z",
-        "replyDate": "2025-08-21T20:48:06.835Z",
-        "contractHistory": [
-          {
-            "actionText": "검토완료",
-            "creator": "이상민",
-            "createTime": "2025/08/22 05:48",
-            "isShowComment": true,
-            "comment": " [강종필/법률지원부님께 (검토 승인1) 단계로 검토완료 했습니다.]",
-            "id": 149799,
-            "creatorDept": "법률지원부",
-            "creatorPosition": "/팀원",
-            "type": "workflow",
-            "extraInfo": {
-              "historyType": "history_itm_contract"
-            }
-          },
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/17 16:41",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14974,
-      {
-        "id": 14974,
-        "title": "신규 서비스 계약 693",
-        "description": "잘 부탁합니다.\n\n감사합니다.",
-        "approvalLine": "GREATER",
-        "status": "REVIEW",
-        "businessWorkDstic": "3",
-        "businessWorkDsticText": "규정지침 + 매뉴얼",
-        "viewcode": "20250912-00014974",
-        "viewCode": "20250912-00014974",
-        "creatorList": [
-          {
-            "creator": "박민수",
-            "creatorDepartment": "개인여신1부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L2]",
-            "creatorEmail": "3456789@XXX.COM",
-            "displayName": "박민수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀원",
-        "creatorDepartment": "개인여신1부",
-        "creatorEmail": "3456789@XXX.COM",
-        "reviewers": [
-          {
-            "name": "안미라",
-            "position": "과장",
-            "department": "법률지원부",
-            "employeeNo": "1111111",
-            "email": "1111111@XXX.COM",
-            "memberId": 811111
-          },
-          {
-            "name": "이상민",
-            "position": "대리",
-            "department": "법률지원부",
-            "employeeNo": "2222222",
-            "email": "2222222@XXX.COM",
-            "memberId": 822222
-          }
-        ],
-        "createDate": "2025/09/12",
-        "labels": [],
-        "reviewRequestDate": "2025/09/12",
-        "enforcementDate": "2025/09/10",
-        "receptionDate": "2025-09-04T07:47:01.139Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/09/03 18:05",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14975,
-      {
-        "id": 14975,
-        "title": "신규 서비스 계약 127",
-        "description": "검토가 필요합니다.\n내일 시행",
-        "approvalLine": "GREATER",
-        "status": "REVIEW",
-        "businessWorkDstic": "3",
-        "businessWorkDsticText": "규정지침 + 매뉴얼",
-        "viewcode": "20250912-00014975",
-        "viewCode": "20250912-00014975",
-        "creatorList": [
-          {
-            "creator": "김철수",
-            "creatorDepartment": "정보개발부",
-            "creatorPosition": "팀장",
-            "positionNameAndRankName": "팀원[L3]",
-            "creatorEmail": "12345678@XXX.COM",
-            "displayName": "김철수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀장",
-        "creatorDepartment": "정보개발부",
-        "creatorEmail": "12345678@XXX.COM",
-        "reviewers": [
-          {
-            "name": "김영지",
-            "position": "변호사",
-            "department": "법률지원부",
-            "employeeNo": "3333333",
-            "email": "3333333@XXX.COM",
-            "memberId": 833333
-          }
-        ],
-        "createDate": "2025/09/12",
-        "labels": [],
-        "reviewRequestDate": "2025/09/12",
-        "enforcementDate": "2025/08/29",
-        "receptionDate": "2025-08-27T00:05:51.008Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/27 08:22",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14976,
-      {
-        "id": 14976,
-        "title": "라이선스 계약 704",
-        "description": "검토 요청합니다.\n빠른 검토 부탁드립니다.",
-        "approvalLine": "EQUAL",
-        "status": "FINISH",
-        "businessWorkDstic": "2",
-        "businessWorkDsticText": "매뉴얼",
-        "viewcode": "20250912-00014976",
-        "viewCode": "20250912-00014976",
-        "creatorList": [
-          {
-            "creator": "김철수",
-            "creatorDepartment": "정보개발부",
-            "creatorPosition": "팀장",
-            "positionNameAndRankName": "팀원[L3]",
-            "creatorEmail": "12345678@XXX.COM",
-            "displayName": "김철수 팀원[L2]"
-          },
-          {
-            "creator": "이영희",
-            "creatorDepartment": "기업제품부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L1]",
-            "creatorEmail": "2345678@XXX.COM",
-            "displayName": "이영희 팀원[L1]"
-          }
-        ],
-        "creatorPosition": "팀장",
-        "creatorDepartment": "정보개발부",
-        "creatorEmail": "12345678@XXX.COM",
-        "reviewers": [
-          {
-            "name": "안미라",
-            "position": "과장",
-            "department": "법률지원부",
-            "employeeNo": "1111111",
-            "email": "1111111@XXX.COM",
-            "memberId": 811111
-          },
-          {
-            "name": "김영지",
-            "position": "변호사",
-            "department": "법률지원부",
-            "employeeNo": "3333333",
-            "email": "3333333@XXX.COM",
-            "memberId": 833333
-          }
-        ],
-        "createDate": "2025/09/12",
-        "labels": [],
-        "reviewRequestDate": "2025/09/12",
-        "enforcementDate": "2025/09/06",
-        "receptionDate": "2025-08-31T13:58:31.993Z",
-        "replyDate": "2025-09-08T06:13:15.573Z",
-        "contractHistory": [
-          {
-            "actionText": "검토완료",
-            "creator": "안미라",
-            "createTime": "2025/09/08 15:13",
-            "isShowComment": true,
-            "comment": " [강종필/법률지원부님께 (검토 승인1) 단계로 검토완료 했습니다.]",
-            "id": 149799,
-            "creatorDept": "법률지원부",
-            "creatorPosition": "/팀원",
-            "type": "workflow",
-            "extraInfo": {
-              "historyType": "history_itm_contract"
-            }
-          },
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/27 17:08",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14977,
-      {
-        "id": 14977,
-        "title": "유지보수 계약 629",
-        "description": "검토가 필요합니다.\n내일 시행",
-        "approvalLine": "EQUAL",
-        "status": "REVIEW",
-        "businessWorkDstic": "2",
-        "businessWorkDsticText": "매뉴얼",
-        "viewcode": "20250913-00014977",
-        "viewCode": "20250913-00014977",
-        "creatorList": [
-          {
-            "creator": "박민수",
-            "creatorDepartment": "개인여신1부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L2]",
-            "creatorEmail": "3456789@XXX.COM",
-            "displayName": "박민수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀원",
-        "creatorDepartment": "개인여신1부",
-        "creatorEmail": "3456789@XXX.COM",
-        "reviewers": [
-          {
-            "name": "이상민",
-            "position": "대리",
-            "department": "법률지원부",
-            "employeeNo": "2222222",
-            "email": "2222222@XXX.COM",
-            "memberId": 822222
-          }
-        ],
-        "createDate": "2025/09/13",
-        "labels": [
-          {
-            "color": "rgb(0, 255, 255, 255)",
-            "name": "검토완료",
-            "type": "PRIVATE",
-            "userId": 101664
-          }
-        ],
-        "reviewRequestDate": "2025/09/13",
-        "enforcementDate": "2025/09/19",
-        "receptionDate": "2025-09-06T01:43:51.001Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/09/05 10:06",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14978,
-      {
-        "id": 14978,
-        "title": "컨설팅 계약 65",
-        "description": "검토 요청합니다.\n빠른 검토 부탁드립니다.",
-        "approvalLine": "LESS",
-        "status": "REVIEW",
-        "businessWorkDstic": "3",
-        "businessWorkDsticText": "규정지침 + 매뉴얼",
-        "viewcode": "20250913-00014978",
-        "viewCode": "20250913-00014978",
-        "creatorList": [
-          {
-            "creator": "김철수",
-            "creatorDepartment": "정보개발부",
-            "creatorPosition": "팀장",
-            "positionNameAndRankName": "팀원[L3]",
-            "creatorEmail": "12345678@XXX.COM",
-            "displayName": "김철수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀장",
-        "creatorDepartment": "정보개발부",
-        "creatorEmail": "12345678@XXX.COM",
-        "reviewers": [
-          {
-            "name": "안미라",
-            "position": "과장",
-            "department": "법률지원부",
-            "employeeNo": "1111111",
-            "email": "1111111@XXX.COM",
-            "memberId": 811111
-          }
-        ],
-        "createDate": "2025/09/13",
-        "labels": [],
-        "reviewRequestDate": "2025/09/13",
-        "enforcementDate": "2025/09/03",
-        "receptionDate": "2025-08-24T00:14:33.380Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/20 03:57",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14979,
-      {
-        "id": 14979,
-        "title": "개발 용역 계약 303",
-        "description": "검토 요청합니다.\n빠른 검토 부탁드립니다.",
-        "approvalLine": "EQUAL",
-        "status": "REVIEW",
-        "businessWorkDstic": "2",
-        "businessWorkDsticText": "매뉴얼",
-        "viewcode": "20250913-00014979",
-        "viewCode": "20250913-00014979",
-        "creatorList": [
-          {
-            "creator": "박민수",
-            "creatorDepartment": "개인여신1부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L2]",
-            "creatorEmail": "3456789@XXX.COM",
-            "displayName": "박민수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀원",
-        "creatorDepartment": "개인여신1부",
-        "creatorEmail": "3456789@XXX.COM",
-        "reviewers": [
-          {
-            "name": "안미라",
-            "position": "과장",
-            "department": "법률지원부",
-            "employeeNo": "1111111",
-            "email": "1111111@XXX.COM",
-            "memberId": 811111
-          }
-        ],
-        "createDate": "2025/09/13",
-        "labels": [
-          {
-            "color": "rgb(0, 255, 255, 255)",
-            "name": "검토완료",
-            "type": "PRIVATE",
-            "userId": 101664
-          }
-        ],
-        "reviewRequestDate": "2025/09/13",
-        "enforcementDate": "2025/08/21",
-        "receptionDate": "2025-08-19T04:06:42.845Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/15 12:16",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14980,
-      {
-        "id": 14980,
-        "title": "컨설팅 계약 99",
-        "description": "검토가 필요합니다.\n내일 시행",
-        "approvalLine": "LESS",
-        "status": "REVIEW",
-        "businessWorkDstic": "3",
-        "businessWorkDsticText": "규정지침 + 매뉴얼",
-        "viewcode": "20250913-00014980",
-        "viewCode": "20250913-00014980",
-        "creatorList": [
-          {
-            "creator": "박민수",
-            "creatorDepartment": "개인여신1부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L2]",
-            "creatorEmail": "3456789@XXX.COM",
-            "displayName": "박민수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀원",
-        "creatorDepartment": "개인여신1부",
-        "creatorEmail": "3456789@XXX.COM",
-        "reviewers": [
-          {
-            "name": "김영지",
-            "position": "변호사",
-            "department": "법률지원부",
-            "employeeNo": "3333333",
-            "email": "3333333@XXX.COM",
-            "memberId": 833333
-          },
-          {
-            "name": "이상민",
-            "position": "대리",
-            "department": "법률지원부",
-            "employeeNo": "2222222",
-            "email": "2222222@XXX.COM",
-            "memberId": 822222
-          }
-        ],
-        "createDate": "2025/09/13",
-        "labels": [],
-        "reviewRequestDate": "2025/09/13",
-        "enforcementDate": "2025/09/04",
-        "receptionDate": "2025-08-24T12:59:40.402Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/20 07:00",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14981,
-      {
-        "id": 14981,
-        "title": "라이선스 계약 876",
-        "description": "검토 요청합니다.\n빠른 검토 부탁드립니다.",
-        "approvalLine": "GREATER",
-        "status": "REVIEW",
-        "businessWorkDstic": "3",
-        "businessWorkDsticText": "규정지침 + 매뉴얼",
-        "viewcode": "20250913-00014981",
-        "viewCode": "20250913-00014981",
-        "creatorList": [
-          {
-            "creator": "박민수",
-            "creatorDepartment": "개인여신1부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L2]",
-            "creatorEmail": "3456789@XXX.COM",
-            "displayName": "박민수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀원",
-        "creatorDepartment": "개인여신1부",
-        "creatorEmail": "3456789@XXX.COM",
-        "reviewers": [
-          {
-            "name": "안미라",
-            "position": "과장",
-            "department": "법률지원부",
-            "employeeNo": "1111111",
-            "email": "1111111@XXX.COM",
-            "memberId": 811111
-          }
-        ],
-        "createDate": "2025/09/13",
-        "labels": [
-          {
-            "color": "rgb(0, 255, 255, 255)",
-            "name": "검토완료",
-            "type": "PRIVATE",
-            "userId": 101664
-          }
-        ],
-        "reviewRequestDate": "2025/09/13",
-        "enforcementDate": null,
-        "receptionDate": "2025-08-24T18:32:48.862Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/21 06:34",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": true,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14982,
-      {
-        "id": 14982,
-        "title": "신규 서비스 계약 893",
-        "description": "긴급 검토 요청드립니다.\n오늘 중으로 회신 바랍니다.",
-        "approvalLine": "EQUAL",
-        "status": "REVIEW",
-        "businessWorkDstic": "2",
-        "businessWorkDsticText": "매뉴얼",
-        "viewcode": "20250913-00014982",
-        "viewCode": "20250913-00014982",
-        "creatorList": [
-          {
-            "creator": "김철수",
-            "creatorDepartment": "정보개발부",
-            "creatorPosition": "팀장",
-            "positionNameAndRankName": "팀원[L3]",
-            "creatorEmail": "12345678@XXX.COM",
-            "displayName": "김철수 팀원[L2]"
-          },
-          {
-            "creator": "이영희",
-            "creatorDepartment": "기업제품부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L1]",
-            "creatorEmail": "2345678@XXX.COM",
-            "displayName": "이영희 팀원[L1]"
-          }
-        ],
-        "creatorPosition": "팀장",
-        "creatorDepartment": "정보개발부",
-        "creatorEmail": "12345678@XXX.COM",
-        "reviewers": [
-          {
-            "name": "이상민",
-            "position": "대리",
-            "department": "법률지원부",
-            "employeeNo": "2222222",
-            "email": "2222222@XXX.COM",
-            "memberId": 822222
-          }
-        ],
-        "createDate": "2025/09/13",
-        "labels": [
-          {
-            "color": "rgb(0, 255, 255, 255)",
-            "name": "검토완료",
-            "type": "PRIVATE",
-            "userId": 101664
-          }
-        ],
-        "reviewRequestDate": "2025/09/13",
-        "enforcementDate": "2025/08/26",
-        "receptionDate": "2025-08-17T22:21:49.726Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/16 18:27",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14983,
-      {
-        "id": 14983,
-        "title": "라이선스 계약 699",
-        "description": "검토 요청합니다.\n빠른 검토 부탁드립니다.",
-        "approvalLine": "GREATER",
-        "status": "REVIEW",
-        "businessWorkDstic": "2",
-        "businessWorkDsticText": "매뉴얼",
-        "viewcode": "20250913-00014983",
-        "viewCode": "20250913-00014983",
-        "creatorList": [
-          {
-            "creator": "김철수",
-            "creatorDepartment": "정보개발부",
-            "creatorPosition": "팀장",
-            "positionNameAndRankName": "팀원[L3]",
-            "creatorEmail": "12345678@XXX.COM",
-            "displayName": "김철수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀장",
-        "creatorDepartment": "정보개발부",
-        "creatorEmail": "12345678@XXX.COM",
-        "reviewers": [
-          {
-            "name": "김영지",
-            "position": "변호사",
-            "department": "법률지원부",
-            "employeeNo": "3333333",
-            "email": "3333333@XXX.COM",
-            "memberId": 833333
-          }
-        ],
-        "createDate": "2025/09/13",
-        "labels": [],
-        "reviewRequestDate": "2025/09/13",
-        "enforcementDate": null,
-        "receptionDate": "2025-09-03T18:16:39.950Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/09/03 17:55",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14984,
-      {
-        "id": 14984,
-        "title": "개발 용역 계약 281",
-        "description": "잘 부탁합니다.\n\n감사합니다.",
-        "approvalLine": "EQUAL",
-        "status": "REVIEW",
-        "businessWorkDstic": "2",
-        "businessWorkDsticText": "매뉴얼",
-        "viewcode": "20250913-00014984",
-        "viewCode": "20250913-00014984",
-        "creatorList": [
-          {
-            "creator": "김철수",
-            "creatorDepartment": "정보개발부",
-            "creatorPosition": "팀장",
-            "positionNameAndRankName": "팀원[L3]",
-            "creatorEmail": "12345678@XXX.COM",
-            "displayName": "김철수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀장",
-        "creatorDepartment": "정보개발부",
-        "creatorEmail": "12345678@XXX.COM",
-        "reviewers": [
-          {
-            "name": "김영지",
-            "position": "변호사",
-            "department": "법률지원부",
-            "employeeNo": "3333333",
-            "email": "3333333@XXX.COM",
-            "memberId": 833333
-          },
-          {
-            "name": "이상민",
-            "position": "대리",
-            "department": "법률지원부",
-            "employeeNo": "2222222",
-            "email": "2222222@XXX.COM",
-            "memberId": 822222
-          }
-        ],
-        "createDate": "2025/09/13",
-        "labels": [
-          {
-            "color": "rgb(0, 255, 255, 255)",
-            "name": "검토완료",
-            "type": "PRIVATE",
-            "userId": 101664
-          }
-        ],
-        "reviewRequestDate": "2025/09/13",
-        "enforcementDate": "2025/09/08",
-        "receptionDate": "2025-08-25T18:01:49.974Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/23 07:14",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14985,
-      {
-        "id": 14985,
-        "title": "컨설팅 계약 726",
-        "description": "긴급 검토 요청드립니다.\n오늘 중으로 회신 바랍니다.",
-        "approvalLine": "EQUAL",
-        "status": "FINISH",
-        "businessWorkDstic": "3",
-        "businessWorkDsticText": "규정지침 + 매뉴얼",
-        "viewcode": "20250913-00014985",
-        "viewCode": "20250913-00014985",
-        "creatorList": [
-          {
-            "creator": "박민수",
-            "creatorDepartment": "개인여신1부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L2]",
-            "creatorEmail": "3456789@XXX.COM",
-            "displayName": "박민수 팀원[L2]"
-          },
-          {
-            "creator": "이영희",
-            "creatorDepartment": "기업제품부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L1]",
-            "creatorEmail": "2345678@XXX.COM",
-            "displayName": "이영희 팀원[L1]"
-          }
-        ],
-        "creatorPosition": "팀원",
-        "creatorDepartment": "개인여신1부",
-        "creatorEmail": "3456789@XXX.COM",
-        "reviewers": [
-          {
-            "name": "김영지",
-            "position": "변호사",
-            "department": "법률지원부",
-            "employeeNo": "3333333",
-            "email": "3333333@XXX.COM",
-            "memberId": 833333
-          },
-          {
-            "name": "이상민",
-            "position": "대리",
-            "department": "법률지원부",
-            "employeeNo": "2222222",
-            "email": "2222222@XXX.COM",
-            "memberId": 822222
-          }
-        ],
-        "createDate": "2025/09/13",
-        "labels": [
-          {
-            "color": "rgb(0, 255, 255, 255)",
-            "name": "검토완료",
-            "type": "PRIVATE",
-            "userId": 101664
-          }
-        ],
-        "reviewRequestDate": "2025/09/13",
-        "enforcementDate": "2025/09/07",
-        "receptionDate": "2025-08-29T18:12:26.081Z",
-        "replyDate": "2025-09-05T14:19:12.060Z",
-        "contractHistory": [
-          {
-            "actionText": "검토완료",
-            "creator": "김영지",
-            "createTime": "2025/09/05 23:19",
-            "isShowComment": true,
-            "comment": " [강종필/법률지원부님께 (검토 승인1) 단계로 검토완료 했습니다.]",
-            "id": 149799,
-            "creatorDept": "법률지원부",
-            "creatorPosition": "/팀원",
-            "type": "workflow",
-            "extraInfo": {
-              "historyType": "history_itm_contract"
-            }
-          },
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/29 08:11",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14986,
-      {
-        "id": 14986,
-        "title": "컨설팅 계약 798",
-        "description": "검토가 필요합니다.\n내일 시행",
-        "approvalLine": "LESS",
-        "status": "REVIEW",
-        "businessWorkDstic": "2",
-        "businessWorkDsticText": "매뉴얼",
-        "viewcode": "20250913-00014986",
-        "viewCode": "20250913-00014986",
-        "creatorList": [
-          {
-            "creator": "박민수",
-            "creatorDepartment": "개인여신1부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L2]",
-            "creatorEmail": "3456789@XXX.COM",
-            "displayName": "박민수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀원",
-        "creatorDepartment": "개인여신1부",
-        "creatorEmail": "3456789@XXX.COM",
-        "reviewers": [
-          {
-            "name": "김영지",
-            "position": "변호사",
-            "department": "법률지원부",
-            "employeeNo": "3333333",
-            "email": "3333333@XXX.COM",
-            "memberId": 833333
-          }
-        ],
-        "createDate": "2025/09/13",
-        "labels": [],
-        "reviewRequestDate": "2025/09/13",
-        "enforcementDate": null,
-        "receptionDate": "2025-08-18T05:04:21.557Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/18 07:45",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14987,
-      {
-        "id": 14987,
-        "title": "컨설팅 계약 64",
-        "description": "잘 부탁합니다.\n\n감사합니다.",
-        "approvalLine": "LESS",
-        "status": "REVIEW",
-        "businessWorkDstic": "3",
-        "businessWorkDsticText": "규정지침 + 매뉴얼",
-        "viewcode": "20250913-00014987",
-        "viewCode": "20250913-00014987",
-        "creatorList": [
-          {
-            "creator": "김철수",
-            "creatorDepartment": "정보개발부",
-            "creatorPosition": "팀장",
-            "positionNameAndRankName": "팀원[L3]",
-            "creatorEmail": "12345678@XXX.COM",
-            "displayName": "김철수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀장",
-        "creatorDepartment": "정보개발부",
-        "creatorEmail": "12345678@XXX.COM",
-        "reviewers": [
-          {
-            "name": "김영지",
-            "position": "변호사",
-            "department": "법률지원부",
-            "employeeNo": "3333333",
-            "email": "3333333@XXX.COM",
-            "memberId": 833333
-          },
-          {
-            "name": "이상민",
-            "position": "대리",
-            "department": "법률지원부",
-            "employeeNo": "2222222",
-            "email": "2222222@XXX.COM",
-            "memberId": 822222
-          }
-        ],
-        "createDate": "2025/09/13",
-        "labels": [],
-        "reviewRequestDate": "2025/09/13",
-        "enforcementDate": "2025/09/06",
-        "receptionDate": "2025-08-26T15:21:06.453Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/25 20:48",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14988,
-      {
-        "id": 14988,
-        "title": "개발 용역 계약 873",
-        "description": "수정사항이 있어 연락드립니다.\n완전 급합니다...",
-        "approvalLine": "EQUAL",
-        "status": "FINISH",
-        "businessWorkDstic": "2",
-        "businessWorkDsticText": "매뉴얼",
-        "viewcode": "20250913-00014988",
-        "viewCode": "20250913-00014988",
-        "creatorList": [
-          {
-            "creator": "박민수",
-            "creatorDepartment": "개인여신1부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L2]",
-            "creatorEmail": "3456789@XXX.COM",
-            "displayName": "박민수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀원",
-        "creatorDepartment": "개인여신1부",
-        "creatorEmail": "3456789@XXX.COM",
-        "reviewers": [
-          {
-            "name": "안미라",
-            "position": "과장",
-            "department": "법률지원부",
-            "employeeNo": "1111111",
-            "email": "1111111@XXX.COM",
-            "memberId": 811111
-          },
-          {
-            "name": "이상민",
-            "position": "대리",
-            "department": "법률지원부",
-            "employeeNo": "2222222",
-            "email": "2222222@XXX.COM",
-            "memberId": 822222
-          }
-        ],
-        "createDate": "2025/09/13",
-        "labels": [
-          {
-            "color": "rgb(0, 255, 255, 255)",
-            "name": "검토완료",
-            "type": "PRIVATE",
-            "userId": 101664
-          }
-        ],
-        "reviewRequestDate": "2025/09/13",
-        "enforcementDate": "2025/08/24",
-        "receptionDate": "2025-08-20T17:38:14.865Z",
-        "replyDate": "2025-08-25T21:37:40.636Z",
-        "contractHistory": [
-          {
-            "actionText": "검토완료",
-            "creator": "안미라",
-            "createTime": "2025/08/26 06:37",
-            "isShowComment": true,
-            "comment": " [강종필/법률지원부님께 (검토 승인1) 단계로 검토완료 했습니다.]",
-            "id": 149799,
-            "creatorDept": "법률지원부",
-            "creatorPosition": "/팀원",
-            "type": "workflow",
-            "extraInfo": {
-              "historyType": "history_itm_contract"
-            }
-          },
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/20 22:01",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14989,
-      {
-        "id": 14989,
-        "title": "개발 용역 계약 829",
-        "description": "검토 요청합니다.\n빠른 검토 부탁드립니다.",
-        "approvalLine": "EQUAL",
-        "status": "REVIEW",
-        "businessWorkDstic": "3",
-        "businessWorkDsticText": "규정지침 + 매뉴얼",
-        "viewcode": "20250913-00014989",
-        "viewCode": "20250913-00014989",
-        "creatorList": [
-          {
-            "creator": "이영희",
-            "creatorDepartment": "기업제품부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L1]",
-            "creatorEmail": "2345678@XXX.COM",
-            "displayName": "이영희 팀원[L1]"
-          }
-        ],
-        "creatorPosition": "팀원",
-        "creatorDepartment": "기업제품부",
-        "creatorEmail": "2345678@XXX.COM",
-        "reviewers": [
-          {
-            "name": "이상민",
-            "position": "대리",
-            "department": "법률지원부",
-            "employeeNo": "2222222",
-            "email": "2222222@XXX.COM",
-            "memberId": 822222
-          }
-        ],
-        "createDate": "2025/09/13",
-        "labels": [],
-        "reviewRequestDate": "2025/09/13",
-        "enforcementDate": "2025/09/19",
-        "receptionDate": "2025-09-13T05:46:51.795Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/09/10 11:53",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14990,
-      {
-        "id": 14990,
-        "title": "컨설팅 계약 513",
-        "description": "검토 요청합니다.\n빠른 검토 부탁드립니다.",
-        "approvalLine": "LESS",
-        "status": "REVIEW",
-        "businessWorkDstic": "3",
-        "businessWorkDsticText": "규정지침 + 매뉴얼",
-        "viewcode": "20250913-00014990",
-        "viewCode": "20250913-00014990",
-        "creatorList": [
-          {
-            "creator": "박민수",
-            "creatorDepartment": "개인여신1부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L2]",
-            "creatorEmail": "3456789@XXX.COM",
-            "displayName": "박민수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀원",
-        "creatorDepartment": "개인여신1부",
-        "creatorEmail": "3456789@XXX.COM",
-        "reviewers": [
-          {
-            "name": "안미라",
-            "position": "과장",
-            "department": "법률지원부",
-            "employeeNo": "1111111",
-            "email": "1111111@XXX.COM",
-            "memberId": 811111
-          },
-          {
-            "name": "이상민",
-            "position": "대리",
-            "department": "법률지원부",
-            "employeeNo": "2222222",
-            "email": "2222222@XXX.COM",
-            "memberId": 822222
-          }
-        ],
-        "createDate": "2025/09/13",
-        "labels": [
-          {
-            "color": "rgb(0, 255, 255, 255)",
-            "name": "검토완료",
-            "type": "PRIVATE",
-            "userId": 101664
-          }
-        ],
-        "reviewRequestDate": "2025/09/13",
-        "enforcementDate": "2025/08/20",
-        "receptionDate": "2025-08-16T21:55:27.498Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/16 00:27",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14991,
-      {
-        "id": 14991,
-        "title": "유지보수 계약 230",
-        "description": "긴급 검토 요청드립니다.\n오늘 중으로 회신 바랍니다.",
-        "approvalLine": "LESS",
-        "status": "REVIEW",
-        "businessWorkDstic": "2",
-        "businessWorkDsticText": "매뉴얼",
-        "viewcode": "20250914-00014991",
-        "viewCode": "20250914-00014991",
-        "creatorList": [
-          {
-            "creator": "이영희",
-            "creatorDepartment": "기업제품부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L1]",
-            "creatorEmail": "2345678@XXX.COM",
-            "displayName": "이영희 팀원[L1]"
-          }
-        ],
-        "creatorPosition": "팀원",
-        "creatorDepartment": "기업제품부",
-        "creatorEmail": "2345678@XXX.COM",
-        "reviewers": [
-          {
-            "name": "이상민",
-            "position": "대리",
-            "department": "법률지원부",
-            "employeeNo": "2222222",
-            "email": "2222222@XXX.COM",
-            "memberId": 822222
-          }
-        ],
-        "createDate": "2025/09/14",
-        "labels": [],
-        "reviewRequestDate": "2025/09/14",
-        "enforcementDate": null,
-        "receptionDate": "2025-09-15T02:16:20.776Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/09/13 11:54",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14992,
-      {
-        "id": 14992,
-        "title": "개발 용역 계약 110",
-        "description": "잘 부탁합니다.\n\n감사합니다.",
-        "approvalLine": "GREATER",
-        "status": "FINISH",
-        "businessWorkDstic": "3",
-        "businessWorkDsticText": "규정지침 + 매뉴얼",
-        "viewcode": "20250914-00014992",
-        "viewCode": "20250914-00014992",
-        "creatorList": [
-          {
-            "creator": "박민수",
-            "creatorDepartment": "개인여신1부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L2]",
-            "creatorEmail": "3456789@XXX.COM",
-            "displayName": "박민수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀원",
-        "creatorDepartment": "개인여신1부",
-        "creatorEmail": "3456789@XXX.COM",
-        "reviewers": [
-          {
-            "name": "김영지",
-            "position": "변호사",
-            "department": "법률지원부",
-            "employeeNo": "3333333",
-            "email": "3333333@XXX.COM",
-            "memberId": 833333
-          }
-        ],
-        "createDate": "2025/09/14",
-        "labels": [
-          {
-            "color": "rgb(0, 255, 255, 255)",
-            "name": "검토완료",
-            "type": "PRIVATE",
-            "userId": 101664
-          }
-        ],
-        "reviewRequestDate": "2025/09/14",
-        "enforcementDate": "2025/09/20",
-        "receptionDate": "2025-09-10T06:08:08.963Z",
-        "replyDate": "2025-09-16T02:43:21.565Z",
-        "contractHistory": [
-          {
-            "actionText": "검토완료",
-            "creator": "김영지",
-            "createTime": "2025/09/16 11:43",
-            "isShowComment": true,
-            "comment": " [강종필/법률지원부님께 (검토 승인1) 단계로 검토완료 했습니다.]",
-            "id": 149799,
-            "creatorDept": "법률지원부",
-            "creatorPosition": "/팀원",
-            "type": "workflow",
-            "extraInfo": {
-              "historyType": "history_itm_contract"
-            }
-          },
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/09/09 00:24",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14993,
-      {
-        "id": 14993,
-        "title": "라이선스 계약 96",
-        "description": "잘 부탁합니다.\n\n감사합니다.",
-        "approvalLine": "EQUAL",
-        "status": "FINISH",
-        "businessWorkDstic": "3",
-        "businessWorkDsticText": "규정지침 + 매뉴얼",
-        "viewcode": "20250914-00014993",
-        "viewCode": "20250914-00014993",
-        "creatorList": [
-          {
-            "creator": "박민수",
-            "creatorDepartment": "개인여신1부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L2]",
-            "creatorEmail": "3456789@XXX.COM",
-            "displayName": "박민수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀원",
-        "creatorDepartment": "개인여신1부",
-        "creatorEmail": "3456789@XXX.COM",
-        "reviewers": [
-          {
-            "name": "김영지",
-            "position": "변호사",
-            "department": "법률지원부",
-            "employeeNo": "3333333",
-            "email": "3333333@XXX.COM",
-            "memberId": 833333
-          }
-        ],
-        "createDate": "2025/09/14",
-        "labels": [
-          {
-            "color": "rgb(0, 255, 255, 255)",
-            "name": "검토완료",
-            "type": "PRIVATE",
-            "userId": 101664
-          }
-        ],
-        "reviewRequestDate": "2025/09/14",
-        "enforcementDate": "2025/09/28",
-        "receptionDate": "2025-09-14T00:47:19.696Z",
-        "replyDate": "2025-09-19T14:55:19.547Z",
-        "contractHistory": [
-          {
-            "actionText": "검토완료",
-            "creator": "김영지",
-            "createTime": "2025/09/19 23:55",
-            "isShowComment": true,
-            "comment": " [강종필/법률지원부님께 (검토 승인1) 단계로 검토완료 했습니다.]",
-            "id": 149799,
-            "creatorDept": "법률지원부",
-            "creatorPosition": "/팀원",
-            "type": "workflow",
-            "extraInfo": {
-              "historyType": "history_itm_contract"
-            }
-          },
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/09/13 09:50",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": true,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14994,
-      {
-        "id": 14994,
-        "title": "컨설팅 계약 613",
-        "description": "검토가 필요합니다.\n내일 시행",
-        "approvalLine": "EQUAL",
-        "status": "REVIEW",
-        "businessWorkDstic": "2",
-        "businessWorkDsticText": "매뉴얼",
-        "viewcode": "20250914-00014994",
-        "viewCode": "20250914-00014994",
-        "creatorList": [
-          {
-            "creator": "박민수",
-            "creatorDepartment": "개인여신1부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L2]",
-            "creatorEmail": "3456789@XXX.COM",
-            "displayName": "박민수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀원",
-        "creatorDepartment": "개인여신1부",
-        "creatorEmail": "3456789@XXX.COM",
-        "reviewers": [
-          {
-            "name": "안미라",
-            "position": "과장",
-            "department": "법률지원부",
-            "employeeNo": "1111111",
-            "email": "1111111@XXX.COM",
-            "memberId": 811111
-          }
-        ],
-        "createDate": "2025/09/14",
-        "labels": [],
-        "reviewRequestDate": "2025/09/14",
-        "enforcementDate": "2025/09/07",
-        "receptionDate": "2025-08-30T08:33:21.444Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/25 17:42",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14995,
-      {
-        "id": 14995,
-        "title": "개발 용역 계약 448",
-        "description": "수정사항이 있어 연락드립니다.\n완전 급합니다...",
-        "approvalLine": "EQUAL",
-        "status": "FINISH",
-        "businessWorkDstic": "3",
-        "businessWorkDsticText": "규정지침 + 매뉴얼",
-        "viewcode": "20250914-00014995",
-        "viewCode": "20250914-00014995",
-        "creatorList": [
-          {
-            "creator": "김철수",
-            "creatorDepartment": "정보개발부",
-            "creatorPosition": "팀장",
-            "positionNameAndRankName": "팀원[L3]",
-            "creatorEmail": "12345678@XXX.COM",
-            "displayName": "김철수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀장",
-        "creatorDepartment": "정보개발부",
-        "creatorEmail": "12345678@XXX.COM",
-        "reviewers": [
-          {
-            "name": "이상민",
-            "position": "대리",
-            "department": "법률지원부",
-            "employeeNo": "2222222",
-            "email": "2222222@XXX.COM",
-            "memberId": 822222
-          }
-        ],
-        "createDate": "2025/09/14",
-        "labels": [
-          {
-            "color": "rgb(0, 255, 255, 255)",
-            "name": "검토완료",
-            "type": "PRIVATE",
-            "userId": 101664
-          }
-        ],
-        "reviewRequestDate": "2025/09/14",
-        "enforcementDate": "2025/09/26",
-        "receptionDate": "2025-09-12T12:00:16.874Z",
-        "replyDate": "2025-09-21T15:14:14.597Z",
-        "contractHistory": [
-          {
-            "actionText": "검토완료",
-            "creator": "이상민",
-            "createTime": "2025/09/22 00:14",
-            "isShowComment": true,
-            "comment": " [강종필/법률지원부님께 (검토 승인1) 단계로 검토완료 했습니다.]",
-            "id": 149799,
-            "creatorDept": "법률지원부",
-            "creatorPosition": "/팀원",
-            "type": "workflow",
-            "extraInfo": {
-              "historyType": "history_itm_contract"
-            }
-          },
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/09/10 00:15",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14996,
-      {
-        "id": 14996,
-        "title": "라이선스 계약 964",
-        "description": "잘 부탁합니다.\n\n감사합니다.",
-        "approvalLine": "EQUAL",
-        "status": "REVIEW",
-        "businessWorkDstic": "2",
-        "businessWorkDsticText": "매뉴얼",
-        "viewcode": "20250914-00014996",
-        "viewCode": "20250914-00014996",
-        "creatorList": [
-          {
-            "creator": "박민수",
-            "creatorDepartment": "개인여신1부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L2]",
-            "creatorEmail": "3456789@XXX.COM",
-            "displayName": "박민수 팀원[L2]"
-          },
-          {
-            "creator": "이영희",
-            "creatorDepartment": "기업제품부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L1]",
-            "creatorEmail": "2345678@XXX.COM",
-            "displayName": "이영희 팀원[L1]"
-          }
-        ],
-        "creatorPosition": "팀원",
-        "creatorDepartment": "개인여신1부",
-        "creatorEmail": "3456789@XXX.COM",
-        "reviewers": [
-          {
-            "name": "안미라",
-            "position": "과장",
-            "department": "법률지원부",
-            "employeeNo": "1111111",
-            "email": "1111111@XXX.COM",
-            "memberId": 811111
-          }
-        ],
-        "createDate": "2025/09/14",
-        "labels": [
-          {
-            "color": "rgb(0, 255, 255, 255)",
-            "name": "검토완료",
-            "type": "PRIVATE",
-            "userId": 101664
-          }
-        ],
-        "reviewRequestDate": "2025/09/14",
-        "enforcementDate": "2025/08/31",
-        "receptionDate": "2025-08-24T18:21:02.069Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/23 15:23",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14997,
-      {
-        "id": 14997,
-        "title": "신규 서비스 계약 654",
-        "description": "검토 요청합니다.\n빠른 검토 부탁드립니다.",
-        "approvalLine": "LESS",
-        "status": "REVIEW",
-        "businessWorkDstic": "3",
-        "businessWorkDsticText": "규정지침 + 매뉴얼",
-        "viewcode": "20250914-00014997",
-        "viewCode": "20250914-00014997",
-        "creatorList": [
-          {
-            "creator": "박민수",
-            "creatorDepartment": "개인여신1부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L2]",
-            "creatorEmail": "3456789@XXX.COM",
-            "displayName": "박민수 팀원[L2]"
-          },
-          {
-            "creator": "이영희",
-            "creatorDepartment": "기업제품부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L1]",
-            "creatorEmail": "2345678@XXX.COM",
-            "displayName": "이영희 팀원[L1]"
-          }
-        ],
-        "creatorPosition": "팀원",
-        "creatorDepartment": "개인여신1부",
-        "creatorEmail": "3456789@XXX.COM",
-        "reviewers": [
-          {
-            "name": "안미라",
-            "position": "과장",
-            "department": "법률지원부",
-            "employeeNo": "1111111",
-            "email": "1111111@XXX.COM",
-            "memberId": 811111
-          }
-        ],
-        "createDate": "2025/09/14",
-        "labels": [
-          {
-            "color": "rgb(0, 255, 255, 255)",
-            "name": "검토완료",
-            "type": "PRIVATE",
-            "userId": 101664
-          }
-        ],
-        "reviewRequestDate": "2025/09/14",
-        "enforcementDate": "2025/09/14",
-        "receptionDate": "2025-09-08T11:22:46.379Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/09/07 09:29",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14998,
-      {
-        "id": 14998,
-        "title": "유지보수 계약 111",
-        "description": "수정사항이 있어 연락드립니다.\n완전 급합니다...",
-        "approvalLine": "EQUAL",
-        "status": "REVIEW",
-        "businessWorkDstic": "2",
-        "businessWorkDsticText": "매뉴얼",
-        "viewcode": "20250914-00014998",
-        "viewCode": "20250914-00014998",
-        "creatorList": [
-          {
-            "creator": "김철수",
-            "creatorDepartment": "정보개발부",
-            "creatorPosition": "팀장",
-            "positionNameAndRankName": "팀원[L3]",
-            "creatorEmail": "12345678@XXX.COM",
-            "displayName": "김철수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀장",
-        "creatorDepartment": "정보개발부",
-        "creatorEmail": "12345678@XXX.COM",
-        "reviewers": [
-          {
-            "name": "김영지",
-            "position": "변호사",
-            "department": "법률지원부",
-            "employeeNo": "3333333",
-            "email": "3333333@XXX.COM",
-            "memberId": 833333
-          }
-        ],
-        "createDate": "2025/09/14",
-        "labels": [],
-        "reviewRequestDate": "2025/09/14",
-        "enforcementDate": null,
-        "receptionDate": "2025-09-01T12:24:00.682Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/31 16:13",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      14999,
-      {
-        "id": 14999,
-        "title": "개발 용역 계약 257",
-        "description": "잘 부탁합니다.\n\n감사합니다.",
-        "approvalLine": "GREATER",
-        "status": "REVIEW",
-        "businessWorkDstic": "3",
-        "businessWorkDsticText": "규정지침 + 매뉴얼",
-        "viewcode": "20250914-00014999",
-        "viewCode": "20250914-00014999",
-        "creatorList": [
-          {
-            "creator": "김철수",
-            "creatorDepartment": "정보개발부",
-            "creatorPosition": "팀장",
-            "positionNameAndRankName": "팀원[L3]",
-            "creatorEmail": "12345678@XXX.COM",
-            "displayName": "김철수 팀원[L2]"
-          }
-        ],
-        "creatorPosition": "팀장",
-        "creatorDepartment": "정보개발부",
-        "creatorEmail": "12345678@XXX.COM",
-        "reviewers": [
-          {
-            "name": "안미라",
-            "position": "과장",
-            "department": "법률지원부",
-            "employeeNo": "1111111",
-            "email": "1111111@XXX.COM",
-            "memberId": 811111
-          },
-          {
-            "name": "이상민",
-            "position": "대리",
-            "department": "법률지원부",
-            "employeeNo": "2222222",
-            "email": "2222222@XXX.COM",
-            "memberId": 822222
-          }
-        ],
-        "createDate": "2025/09/14",
-        "labels": [],
-        "reviewRequestDate": "2025/09/14",
-        "enforcementDate": "2025/08/26",
-        "receptionDate": "2025-08-21T20:41:13.992Z",
-        "replyDate": "2025-09-15T12:52:43.563Z",
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/08/19 07:36",
-            "contractDocList": []
-          },
-          {
-            "id": 2,
-            "actionText": "검토 완료",
-            "createTime": "2025/9/14/오후 5:03",
-            "contractDocList": []
-          },
-          {
-            "id": 3,
-            "actionText": "검토 완료",
-            "createTime": "2025/9/14/오후 5:04",
-            "contractDocList": []
-          },
-          {
-            "id": 4,
-            "actionText": "검토 완료",
-            "createTime": "2025/9/14/오후 5:05",
-            "contractDocList": []
-          },
-          {
-            "id": 5,
-            "actionText": "검토 완료",
-            "createTime": "2025/9/14/오후 5:05",
-            "contractDocList": []
-          },
-          {
-            "id": 6,
-            "actionText": "검토 완료",
-            "createTime": "2025/9/14/오후 5:05",
-            "contractDocList": []
-          },
-          {
-            "id": 7,
-            "actionText": "반려",
-            "createTime": "2025/9/14/오후 5:10",
-            "contractDocList": []
-          },
-          {
-            "id": 8,
-            "actionText": "검토 완료",
-            "createTime": "2025/9/15/오후 9:52",
-            "contractDocList": []
-          },
-          {
-            "id": 9,
-            "actionText": "반려",
-            "createTime": "2025/9/15/오후 9:52",
-            "contractDocList": []
-          },
-          {
-            "id": 10,
-            "actionText": "검토 완료",
-            "createTime": "2025/9/15/오후 9:52",
-            "contractDocList": []
-          },
-          {
-            "id": 11,
-            "actionText": "반려",
-            "createTime": "2025/9/15/오후 9:52",
-            "contractDocList": []
-          },
-          {
-            "id": 12,
-            "actionText": "검토 완료",
-            "createTime": "2025/9/15/오후 9:52",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ],
-    [
-      15000,
-      {
-        "id": 15000,
-        "title": "유지보수 계약 898",
-        "description": "검토가 필요합니다.\n내일 시행",
-        "approvalLine": "EQUAL",
-        "status": "REVIEW",
-        "businessWorkDstic": "3",
-        "businessWorkDsticText": "규정지침 + 매뉴얼",
-        "viewcode": "20250915-00015000",
-        "viewCode": "20250915-00015000",
-        "creatorList": [
-          {
-            "creator": "이영희",
-            "creatorDepartment": "기업제품부",
-            "creatorPosition": "팀원",
-            "positionNameAndRankName": "팀원[L1]",
-            "creatorEmail": "2345678@XXX.COM",
-            "displayName": "이영희 팀원[L1]"
-          }
-        ],
-        "creatorPosition": "팀원",
-        "creatorDepartment": "기업제품부",
-        "creatorEmail": "2345678@XXX.COM",
-        "reviewers": [
-          {
-            "name": "김영지",
-            "position": "변호사",
-            "department": "법률지원부",
-            "employeeNo": "3333333",
-            "email": "3333333@XXX.COM",
-            "memberId": 833333
-          }
-        ],
-        "createDate": "2025/09/15",
-        "labels": [],
-        "reviewRequestDate": "2025/09/15",
-        "enforcementDate": null,
-        "receptionDate": "2025-09-12T16:41:45.181Z",
-        "replyDate": null,
-        "contractHistory": [
-          {
-            "id": 1,
-            "actionText": "접수",
-            "createTime": "2025/09/11 04:01",
-            "contractDocList": []
-          },
-          {
-            "id": 2,
-            "actionText": "검토 완료",
-            "createTime": "2025/9/15/오후 9:52",
-            "contractDocList": []
-          },
-          {
-            "id": 3,
-            "actionText": "반려",
-            "createTime": "2025/9/15/오후 9:52",
-            "contractDocList": []
-          }
-        ],
-        "isSecurity": false,
-        "documentReviewList": [],
-        "documentTargetList": []
-      }
-    ]
-  ],
-  "chats": [
-    [
-      14951,
-      [
+    {
+      "approvalLine": "GRATER",
+      "positionNameAndRankName": "팀원[3]",
+      "isSigned": true,
+      "elecApprovalDocNo": null,
+      "creatorEmail": "3de3fr3i43cw3g33hn_3dc3fm@naver.com",
+      "contractMemo": "가진다. 도피 승인된 민족문화의 사항은.",
+      "creatorPosition": "팀원",
+      "validFrom": "2025-03-10T10:10:38.113Z",
+      "type": null,
+      "isMultiSignStep": false,
+      "signMemberList": [],
+      "opponent": "한국 우정",
+      "directorsDate": "2025-08-29T22:56:38.188Z",
+      "isIndividualTypeAutoUpdate": true,
+      "isInOwner": true,
+      "documentReviewList": [],
+      "lastReviewDoc": {},
+      "replyDate": "2025-09-20T16:37:21.605Z",
+      "relatedDepartment": "시찬 물산",
+      "opponentList": [],
+      "isOpen": true,
+      "isTemp": true,
+      "name": "계승·발전과 창달에 진흥하여야",
+      "isDomesticOrAbroad": false,
+      "oppositeList": [],
+      "isCreateUser": true,
+      "actions": [],
+      "isAffiliateTrade": true,
+      "isContainSignStep": true,
+      "status": "APPROVAL_DEPT",
+      "isSecurity": false,
+      "provisionClassification": "정한다.",
+      "resultReviewDate": "2025-09-20T13:45:16.561Z",
+      "creatorDepartment": "인력관리부",
+      "contry": "",
+      "alarmData": [],
+      "description": "수 행위시의 판결이.",
+      "enforcementDate": "2026/09/09",
+      "elecApprovalDate": "2026-02-03T16:23:51.150Z",
+      "commissionReport": "같은 예술가의 신문의 침해받지 진흥하여야 처벌받지 보호할 통신·방송의.",
+      "contractHistory": [],
+      "creator": "옥영성",
+      "contractAttachment": [],
+      "reviewRequestDate": "2025/09/21",
+      "lawyerList": [],
+      "reviewers": [
         {
-          "id": 1,
-          "contractId": 14951,
-          "userId": 101664,
-          "userName": "담당자",
-          "message": "유지보수 계약 703 검토를 시작합니다.",
-          "createTime": "2025/09/13 00:13",
-          "type": "COMMENT"
+          "reviewerId": 10003,
+          "telNumber": null,
+          "name": "김일지",
+          "position": "팀원",
+          "type": "REVIEWER",
+          "department": "법률도움부",
+          "employeeNo": "empId10003",
+          "email": "empId10003@XXX.COM",
+          "companyReg": null,
+          "memberId": 90003
+        }
+      ],
+      "labelList": [],
+      "documentTargetList": [],
+      "creatorList": [
+        {
+          "creator": "옥영성",
+          "creatorDepartment": "인력관리부",
+          "positionNameAndRankName": "팀원[3]",
+          "creatorEmail": "3de3fr3i43cw3g33hn_3dc3fm@naver.com",
+          "displayName": "옥영성 팀원[3]",
+          "creatorPosition": "팀원"
+        }
+      ],
+      "validEnd": "2025-10-18T21:08:58.062Z",
+      "relations": [],
+      "category": {
+        "text": "규정지침",
+        "childId": null,
+        "type": "GUIDELINE",
+        "parentId": 65
+      },
+      "is_multi": true,
+      "createDate": "2025/09/20",
+      "viewcode": "2025/09/20-69290333",
+      "receptionDate": "2025-09-20T19:43:37.705Z",
+      "writeDocNo": "한국 민조 3696",
+      "id": 10000
+    },
+    {
+      "approvalLine": "EQUAL",
+      "positionNameAndRankName": "팀장[4]",
+      "isSigned": false,
+      "elecApprovalDocNo": null,
+      "creatorEmail": "3d73fr3i43de3fu3hn_3d33fm@gmail.com",
+      "contractMemo": "민족문화의 법률에 국제법규는 민족문화의 예술가의 신체의 체결·공포된.",
+      "creatorPosition": "팀장",
+      "validFrom": "2025-05-11T20:12:29.753Z",
+      "type": null,
+      "isMultiSignStep": true,
+      "signMemberList": [],
+      "opponent": "아빈 공사",
+      "directorsDate": "2024-12-20T16:42:10.342Z",
+      "isIndividualTypeAutoUpdate": true,
+      "isInOwner": false,
+      "documentReviewList": [],
+      "lastReviewDoc": {},
+      "replyDate": "2025-09-20T17:50:22.138Z",
+      "relatedDepartment": "로빈 코리아",
+      "opponentList": [],
+      "isOpen": false,
+      "isTemp": true,
+      "name": "수 신문의 법률에",
+      "isDomesticOrAbroad": false,
+      "oppositeList": [],
+      "isCreateUser": false,
+      "actions": [],
+      "isAffiliateTrade": false,
+      "isContainSignStep": false,
+      "status": "RECEPTION",
+      "isSecurity": false,
+      "provisionClassification": "조약과",
+      "resultReviewDate": "2025-09-20T12:04:32.782Z",
+      "creatorDepartment": "여신개인부",
+      "contry": "",
+      "alarmData": [],
+      "description": "재외국민을 범죄에 사후에 진다. 모성의.",
+      "enforcementDate": "2025/11/21",
+      "elecApprovalDate": "2026-08-16T00:47:10.264Z",
+      "commissionReport": "평생교육을 보장하기 법률에 범죄에 법률에 무죄로.",
+      "contractHistory": [],
+      "creator": "맹채민",
+      "contractAttachment": [],
+      "reviewRequestDate": "2025/09/20",
+      "lawyerList": [],
+      "reviewers": [
+        {
+          "reviewerId": 10001,
+          "telNumber": null,
+          "name": "박미라",
+          "position": "팀원",
+          "type": "REVIEWER",
+          "department": "법률도움부",
+          "employeeNo": "empId10001",
+          "email": "empId10001@XXX.COM",
+          "companyReg": null,
+          "memberId": 90001
+        }
+      ],
+      "labelList": [],
+      "documentTargetList": [],
+      "creatorList": [
+        {
+          "creator": "맹채민",
+          "creatorDepartment": "여신개인부",
+          "positionNameAndRankName": "팀장[4]",
+          "creatorEmail": "3d73fr3i43de3fu3hn_3d33fm@gmail.com",
+          "displayName": "맹채민 팀장[4]",
+          "creatorPosition": "팀장"
         },
         {
-          "id": 2,
-          "contractId": 14951,
-          "userId": 101664,
-          "userName": "관리자",
-          "message": "eqweqwe",
-          "createTime": "2025/9/13/오전 12:35",
-          "type": "COMMENT"
+          "creator": "전남윤",
+          "creatorDepartment": "여신관리심사부",
+          "positionNameAndRankName": "팀장[4]",
+          "creatorEmail": "3d83g53d53fl3hn.3d73fp3hz@naver.com",
+          "displayName": "전남윤 팀장[4]",
+          "creatorPosition": "팀장"
+        }
+      ],
+      "validEnd": "2026-06-03T19:51:17.031Z",
+      "relations": [],
+      "category": {
+        "text": "매뉴얼",
+        "childId": null,
+        "type": "GUIDELINE",
+        "parentId": 65
+      },
+      "is_multi": false,
+      "createDate": "2025/09/21",
+      "viewcode": "2025/09/20-47250163",
+      "receptionDate": "2025-09-21T07:33:21.564Z",
+      "writeDocNo": "주식회사 찬형 1828",
+      "id": 10001
+    },
+    {
+      "approvalLine": "LESS",
+      "positionNameAndRankName": "팀원[1]",
+      "isSigned": true,
+      "elecApprovalDocNo": null,
+      "creatorEmail": "3cw3g23d73g33hn.3d13fl@naver.com",
+      "contractMemo": "사후에 장기 진흥하여야 의무교육은 때에는 노력하여야.",
+      "creatorPosition": "팀원",
+      "validFrom": "2025-02-12T04:27:45.968Z",
+      "type": "TYPE1",
+      "isMultiSignStep": true,
+      "signMemberList": [],
+      "opponent": "주식회사 기훈",
+      "directorsDate": "2025-08-27T13:27:14.824Z",
+      "isIndividualTypeAutoUpdate": true,
+      "isInOwner": false,
+      "documentReviewList": [],
+      "lastReviewDoc": {},
+      "replyDate": "2025-09-20T11:11:14.918Z",
+      "relatedDepartment": "주식회사 창민",
+      "opponentList": [],
+      "isOpen": true,
+      "isTemp": false,
+      "name": "사항은 염려가 의무교육은",
+      "isDomesticOrAbroad": true,
+      "oppositeList": [],
+      "isCreateUser": true,
+      "actions": [],
+      "isAffiliateTrade": true,
+      "isContainSignStep": false,
+      "status": "REVIEW",
+      "isSecurity": false,
+      "provisionClassification": "조약과",
+      "resultReviewDate": "2025-09-20T16:25:22.297Z",
+      "creatorDepartment": "전략기획부",
+      "contry": "",
+      "alarmData": [],
+      "description": "유죄의 가진다. 형사피고인은.",
+      "enforcementDate": "2026/08/12",
+      "elecApprovalDate": "2026-06-30T02:44:42.926Z",
+      "commissionReport": "구성하지 형에 아니하며, 행위시의 권리는 효력을 기능을 침해받지 기능을.",
+      "contractHistory": [],
+      "creator": "성종희",
+      "contractAttachment": [],
+      "reviewRequestDate": "2025/09/21",
+      "lawyerList": [],
+      "reviewers": [
+        {
+          "reviewerId": 10001,
+          "telNumber": null,
+          "name": "박미라",
+          "position": "팀원",
+          "type": "REVIEWER",
+          "department": "법률도움부",
+          "employeeNo": "empId10001",
+          "email": "empId10001@XXX.COM",
+          "companyReg": null,
+          "memberId": 90001
+        }
+      ],
+      "labelList": [],
+      "documentTargetList": [],
+      "creatorList": [
+        {
+          "creator": "성종희",
+          "creatorDepartment": "전략기획부",
+          "positionNameAndRankName": "팀원[1]",
+          "creatorEmail": "3cw3g23d73g33hn.3d13fl@naver.com",
+          "displayName": "성종희 팀원[1]",
+          "creatorPosition": "팀원"
+        }
+      ],
+      "validEnd": "2026-04-25T04:23:50.367Z",
+      "relations": [],
+      "category": {
+        "text": "규정지침",
+        "childId": null,
+        "type": "GUIDELINE",
+        "parentId": 65
+      },
+      "is_multi": false,
+      "createDate": "2025/09/20",
+      "viewcode": "2025/09/21-91114770",
+      "receptionDate": "2025-09-21T00:10:05.641Z",
+      "writeDocNo": "한국 인기 2579",
+      "id": 10002
+    },
+    {
+      "approvalLine": "GRATER",
+      "positionNameAndRankName": "팀장[1]",
+      "isSigned": false,
+      "elecApprovalDocNo": null,
+      "creatorEmail": "3d53fq3cz3fl3hz_3d73fr@hanmail.net",
+      "contractMemo": "체결·공포된 경우와 국가는 법률이 의하여 범죄를 장기.",
+      "creatorPosition": "팀장",
+      "validFrom": "2025-08-03T03:12:04.350Z",
+      "type": "TYPE2",
+      "isMultiSignStep": true,
+      "signMemberList": [],
+      "opponent": "주식회사 도엽",
+      "directorsDate": "2025-08-26T18:03:25.984Z",
+      "isIndividualTypeAutoUpdate": true,
+      "isInOwner": false,
+      "documentReviewList": [],
+      "lastReviewDoc": {},
+      "replyDate": "2025-09-20T13:54:43.618Z",
+      "relatedDepartment": "한국 진훈",
+      "opponentList": [],
+      "isOpen": false,
+      "isTemp": false,
+      "name": "추정된다. 형사피고인은 영장을",
+      "isDomesticOrAbroad": true,
+      "oppositeList": [],
+      "isCreateUser": true,
+      "actions": [],
+      "isAffiliateTrade": false,
+      "isContainSignStep": false,
+      "status": "FINISH",
+      "isSecurity": false,
+      "provisionClassification": "체결·공포된",
+      "resultReviewDate": "2025-09-20T14:12:47.713Z",
+      "creatorDepartment": "전략기획부",
+      "contry": "",
+      "alarmData": [],
+      "description": "아니하는 정하는 아니하는 보장하기 형에 일반적으로 승인된 예술가의 국제법규는.",
+      "enforcementDate": "2026/08/13",
+      "elecApprovalDate": "2026-09-02T16:39:36.741Z",
+      "commissionReport": "또는 사후에 아니한다. 국제법규는 민족문화의.",
+      "contractHistory": [],
+      "creator": "위상태",
+      "contractAttachment": [],
+      "reviewRequestDate": "2025/09/21",
+      "lawyerList": [],
+      "reviewers": [
+        {
+          "reviewerId": 10003,
+          "telNumber": null,
+          "name": "김일지",
+          "position": "팀원",
+          "type": "REVIEWER",
+          "department": "법률도움부",
+          "employeeNo": "empId10003",
+          "email": "empId10003@XXX.COM",
+          "companyReg": null,
+          "memberId": 90003
+        }
+      ],
+      "labelList": [],
+      "documentTargetList": [],
+      "creatorList": [
+        {
+          "creator": "위상태",
+          "creatorDepartment": "전략기획부",
+          "positionNameAndRankName": "팀장[1]",
+          "creatorEmail": "3d53fq3cz3fl3hz_3d73fr@hanmail.net",
+          "displayName": "위상태 팀장[1]",
+          "creatorPosition": "팀장"
+        }
+      ],
+      "validEnd": "2026-06-21T03:06:30.109Z",
+      "relations": [],
+      "category": {
+        "text": "매뉴얼",
+        "childId": null,
+        "type": "GUIDELINE",
+        "parentId": 65
+      },
+      "is_multi": true,
+      "createDate": "2025/09/20",
+      "viewcode": "2025/09/20-42478754",
+      "receptionDate": "2025-09-20T19:01:25.908Z",
+      "writeDocNo": "제현 그룹 8915",
+      "id": 10003
+    },
+    {
+      "approvalLine": "EQUAL",
+      "positionNameAndRankName": "팀원[2]",
+      "isSigned": false,
+      "elecApprovalDocNo": "iQ98EDOCBK",
+      "creatorEmail": "3d73fs3d53g33i48@naver.com",
+      "contractMemo": "구성하지 법률로써 동일한 행위시의 무상으로 국민은 무죄로.",
+      "creatorPosition": "팀원",
+      "validFrom": "2025-01-28T19:41:45.542Z",
+      "type": "TYPE1",
+      "isMultiSignStep": true,
+      "signMemberList": [],
+      "opponent": "윤형 은행",
+      "directorsDate": "2024-09-24T14:25:00.788Z",
+      "isIndividualTypeAutoUpdate": true,
+      "isInOwner": false,
+      "documentReviewList": [],
+      "lastReviewDoc": {},
+      "replyDate": "2025-09-20T22:31:31.026Z",
+      "relatedDepartment": "한국 요셉",
+      "opponentList": [],
+      "isOpen": true,
+      "isTemp": false,
+      "name": "청구할 유죄의 유죄의",
+      "isDomesticOrAbroad": false,
+      "oppositeList": [],
+      "isCreateUser": false,
+      "actions": [],
+      "isAffiliateTrade": false,
+      "isContainSignStep": false,
+      "status": "FINISH",
+      "isSecurity": true,
+      "provisionClassification": "계승·발전과",
+      "resultReviewDate": "2025-09-21T00:32:01.316Z",
+      "creatorDepartment": "전략기획부",
+      "contry": "",
+      "alarmData": [],
+      "description": "효력을 모성의 국제법규는 평생교육을 같은 예술가의 국가는 수 형에.",
+      "enforcementDate": "2026/07/22",
+      "elecApprovalDate": "2026-09-03T20:15:07.003Z",
+      "commissionReport": "법률로 계승·발전과 사생활의 처벌받지 법률로.",
+      "contractHistory": [],
+      "creator": "견오율",
+      "contractAttachment": [],
+      "reviewRequestDate": "2025/09/20",
+      "lawyerList": [],
+      "reviewers": [
+        {
+          "reviewerId": 10003,
+          "telNumber": null,
+          "name": "김일지",
+          "position": "팀원",
+          "type": "REVIEWER",
+          "department": "법률도움부",
+          "employeeNo": "empId10003",
+          "email": "empId10003@XXX.COM",
+          "companyReg": null,
+          "memberId": 90003
+        }
+      ],
+      "labelList": [],
+      "documentTargetList": [],
+      "creatorList": [
+        {
+          "creator": "견오율",
+          "creatorDepartment": "전략기획부",
+          "positionNameAndRankName": "팀원[2]",
+          "creatorEmail": "3d73fs3d53g33i48@naver.com",
+          "displayName": "견오율 팀원[2]",
+          "creatorPosition": "팀원"
+        }
+      ],
+      "validEnd": "2025-10-09T09:28:29.042Z",
+      "relations": [],
+      "category": {
+        "text": "규정지침",
+        "childId": null,
+        "type": "GUIDELINE",
+        "parentId": 65
+      },
+      "is_multi": false,
+      "createDate": "2025/09/21",
+      "viewcode": "2025/09/21-01568734",
+      "receptionDate": "2025-09-21T05:44:47.603Z",
+      "writeDocNo": "호동 공사 6677",
+      "id": 10004
+    },
+    {
+      "approvalLine": "GRATER",
+      "positionNameAndRankName": "팀장[1]",
+      "isSigned": false,
+      "elecApprovalDocNo": "jnnCp9lPMd",
+      "creatorEmail": "3d53g33i43cw3g2.3d33ft3i483@gmail.com",
+      "contractMemo": "보호를 자유를 보호를 법률에 또는 기능을.",
+      "creatorPosition": "팀장",
+      "validFrom": "2025-05-06T06:49:19.731Z",
+      "type": "TYPE2",
+      "isMultiSignStep": true,
+      "signMemberList": [],
+      "opponent": "한국 수창",
+      "directorsDate": "2024-10-20T03:41:11.886Z",
+      "isIndividualTypeAutoUpdate": true,
+      "isInOwner": false,
+      "documentReviewList": [],
+      "lastReviewDoc": {},
+      "replyDate": "2025-09-21T07:10:00.851Z",
+      "relatedDepartment": "다일 중공업",
+      "opponentList": [],
+      "isOpen": false,
+      "isTemp": true,
+      "name": "정한다. 법률이 진다.",
+      "isDomesticOrAbroad": true,
+      "oppositeList": [],
+      "isCreateUser": true,
+      "actions": [],
+      "isAffiliateTrade": true,
+      "isContainSignStep": false,
+      "status": "APPROVAL_DEPT",
+      "isSecurity": false,
+      "provisionClassification": "증거인멸의",
+      "resultReviewDate": "2025-09-20T13:10:32.357Z",
+      "creatorDepartment": "전략기획부",
+      "contry": "",
+      "alarmData": [],
+      "description": "보장하기 때에는 장기 모든.",
+      "enforcementDate": "2026/06/23",
+      "elecApprovalDate": "2025-09-25T01:27:25.909Z",
+      "commissionReport": "진다. 시설기준과 사생활의 법률로써 장기 다만, 창달에 보장하기 확정될 통신·방송의.",
+      "contractHistory": [],
+      "creator": "염광호",
+      "contractAttachment": [],
+      "reviewRequestDate": "2025/09/20",
+      "lawyerList": [],
+      "reviewers": [
+        {
+          "reviewerId": 10002,
+          "telNumber": null,
+          "name": "이하민",
+          "position": "팀원",
+          "type": "REVIEWER",
+          "department": "법률도움부",
+          "employeeNo": "empId10002",
+          "email": "empId10002@XXX.COM",
+          "companyReg": null,
+          "memberId": 90002
+        }
+      ],
+      "labelList": [],
+      "documentTargetList": [],
+      "creatorList": [
+        {
+          "creator": "염광호",
+          "creatorDepartment": "전략기획부",
+          "positionNameAndRankName": "팀장[1]",
+          "creatorEmail": "3d53g33i43cw3g2.3d33ft3i483@gmail.com",
+          "displayName": "염광호 팀장[1]",
+          "creatorPosition": "팀장"
+        }
+      ],
+      "validEnd": "2026-01-05T16:59:17.192Z",
+      "relations": [],
+      "category": {
+        "text": "규정지침/매뉴얼",
+        "childId": null,
+        "type": "GUIDELINE",
+        "parentId": 65
+      },
+      "is_multi": true,
+      "createDate": "2025/09/20",
+      "viewcode": "2025/09/21-48147749",
+      "receptionDate": "2025-09-21T06:49:30.136Z",
+      "writeDocNo": "주식회사 혁빈 2602",
+      "id": 10005
+    },
+    {
+      "approvalLine": "EQUAL",
+      "positionNameAndRankName": "팀원[1]",
+      "isSigned": true,
+      "elecApprovalDocNo": null,
+      "creatorEmail": "3d83fm3d73g53hr.3d73fp3hz@hanmail.net",
+      "contractMemo": "민족문화의 거듭 아니한다. 사항은.",
+      "creatorPosition": "팀원",
+      "validFrom": "2025-01-04T12:55:14.273Z",
+      "type": null,
+      "isMultiSignStep": true,
+      "signMemberList": [],
+      "opponent": "한국 현표",
+      "directorsDate": "2025-08-20T19:29:28.253Z",
+      "isIndividualTypeAutoUpdate": false,
+      "isInOwner": true,
+      "documentReviewList": [],
+      "lastReviewDoc": {},
+      "replyDate": "2025-09-21T05:05:27.683Z",
+      "relatedDepartment": "주식회사 하을",
+      "opponentList": [],
+      "isOpen": true,
+      "isTemp": true,
+      "name": "행위로 장기 경우와",
+      "isDomesticOrAbroad": true,
+      "oppositeList": [],
+      "isCreateUser": true,
+      "actions": [],
+      "isAffiliateTrade": true,
+      "isContainSignStep": false,
+      "status": "APPROVAL_DEPT",
+      "isSecurity": true,
+      "provisionClassification": "의무를",
+      "resultReviewDate": "2025-09-21T05:05:42.183Z",
+      "creatorDepartment": "인사부",
+      "contry": "",
+      "alarmData": [],
+      "description": "의무교육은 일반적으로 있을 국민은 바에 자유를.",
+      "enforcementDate": "2026/02/14",
+      "elecApprovalDate": "2025-12-26T11:06:52.930Z",
+      "commissionReport": "예술가의 경우와 통신·방송의 국민은 의무를 통신·방송의 장기.",
+      "contractHistory": [],
+      "creator": "인규형",
+      "contractAttachment": [],
+      "reviewRequestDate": "2025/09/21",
+      "lawyerList": [],
+      "reviewers": [
+        {
+          "reviewerId": 10001,
+          "telNumber": null,
+          "name": "박미라",
+          "position": "팀원",
+          "type": "REVIEWER",
+          "department": "법률도움부",
+          "employeeNo": "empId10001",
+          "email": "empId10001@XXX.COM",
+          "companyReg": null,
+          "memberId": 90001
+        }
+      ],
+      "labelList": [],
+      "documentTargetList": [],
+      "creatorList": [
+        {
+          "creator": "인규형",
+          "creatorDepartment": "인사부",
+          "positionNameAndRankName": "팀원[1]",
+          "creatorEmail": "3d83fm3d73g53hr.3d73fp3hz@hanmail.net",
+          "displayName": "인규형 팀원[1]",
+          "creatorPosition": "팀원"
+        }
+      ],
+      "validEnd": "2026-04-09T22:51:09.389Z",
+      "relations": [],
+      "category": {
+        "text": "매뉴얼",
+        "childId": null,
+        "type": "GUIDELINE",
+        "parentId": 65
+      },
+      "is_multi": false,
+      "createDate": "2025/09/20",
+      "viewcode": "2025/09/21-28178065",
+      "receptionDate": "2025-09-20T15:00:50.199Z",
+      "writeDocNo": "이담 연구소 5973",
+      "id": 10006
+    },
+    {
+      "approvalLine": "EQUAL",
+      "positionNameAndRankName": "팀원[4]",
+      "isSigned": false,
+      "elecApprovalDocNo": null,
+      "creatorEmail": "3d73fy3dc3fm_3d83fu@naver.com",
+      "contractMemo": "염려가 노력하여야 다만, 정하는 이상의 추정된다. 아니하는.",
+      "creatorPosition": "팀원",
+      "validFrom": "2025-05-29T08:44:00.143Z",
+      "type": "TYPE1",
+      "isMultiSignStep": false,
+      "signMemberList": [],
+      "opponent": "환서 그룹",
+      "directorsDate": "2025-07-10T08:25:35.828Z",
+      "isIndividualTypeAutoUpdate": true,
+      "isInOwner": false,
+      "documentReviewList": [],
+      "lastReviewDoc": {},
+      "replyDate": "2025-09-20T16:20:46.992Z",
+      "relatedDepartment": "주식회사 나훈",
+      "opponentList": [],
+      "isOpen": true,
+      "isTemp": true,
+      "name": "침해받지 필요한 동일한",
+      "isDomesticOrAbroad": true,
+      "oppositeList": [],
+      "isCreateUser": true,
+      "actions": [],
+      "isAffiliateTrade": true,
+      "isContainSignStep": true,
+      "status": "APPROVAL_DEPT",
+      "isSecurity": false,
+      "provisionClassification": "소추되지",
+      "resultReviewDate": "2025-09-21T09:38:03.478Z",
+      "creatorDepartment": "인사부",
+      "contry": "",
+      "alarmData": [],
+      "description": "확정될 무상으로 형사피고인은 형에.",
+      "enforcementDate": "2026/01/27",
+      "elecApprovalDate": "2026-08-08T19:40:19.852Z",
+      "commissionReport": "한다. 현행범인인 법률에 국민은 국민은 행위로 행위로 노력하여야 형에 경우와.",
+      "contractHistory": [],
+      "creator": "편명우",
+      "contractAttachment": [],
+      "reviewRequestDate": "2025/09/20",
+      "lawyerList": [],
+      "reviewers": [
+        {
+          "reviewerId": 10003,
+          "telNumber": null,
+          "name": "김일지",
+          "position": "팀원",
+          "type": "REVIEWER",
+          "department": "법률도움부",
+          "employeeNo": "empId10003",
+          "email": "empId10003@XXX.COM",
+          "companyReg": null,
+          "memberId": 90003
+        }
+      ],
+      "labelList": [],
+      "documentTargetList": [],
+      "creatorList": [
+        {
+          "creator": "편명우",
+          "creatorDepartment": "인사부",
+          "positionNameAndRankName": "팀원[4]",
+          "creatorEmail": "3d73fy3dc3fm_3d83fu@naver.com",
+          "displayName": "편명우 팀원[4]",
+          "creatorPosition": "팀원"
+        }
+      ],
+      "validEnd": "2025-12-12T21:32:35.489Z",
+      "relations": [],
+      "category": {
+        "text": "매뉴얼",
+        "childId": null,
+        "type": "GUIDELINE",
+        "parentId": 65
+      },
+      "is_multi": false,
+      "createDate": "2025/09/21",
+      "viewcode": "2025/09/21-59032527",
+      "receptionDate": "2025-09-20T18:22:44.159Z",
+      "writeDocNo": "광호 연구소 8309",
+      "id": 10007
+    },
+    {
+      "approvalLine": "LESS",
+      "positionNameAndRankName": "팀장[2]",
+      "isSigned": false,
+      "elecApprovalDocNo": null,
+      "creatorEmail": "3d73fy3cw3fr3i475@gmail.com",
+      "contractMemo": "무죄로 아니하며, 정한다..",
+      "creatorPosition": "팀장",
+      "validFrom": "2025-04-12T16:18:42.242Z",
+      "type": "TYPE2",
+      "isMultiSignStep": false,
+      "signMemberList": [],
+      "opponent": "시민 전자",
+      "directorsDate": "2024-11-26T03:16:20.416Z",
+      "isIndividualTypeAutoUpdate": true,
+      "isInOwner": true,
+      "documentReviewList": [],
+      "lastReviewDoc": {},
+      "replyDate": "2025-09-20T21:54:55.478Z",
+      "relatedDepartment": "경헌 게임즈",
+      "opponentList": [],
+      "isOpen": false,
+      "isTemp": true,
+      "name": "진흥하여야 형에 자유를",
+      "isDomesticOrAbroad": false,
+      "oppositeList": [],
+      "isCreateUser": true,
+      "actions": [],
+      "isAffiliateTrade": true,
+      "isContainSignStep": false,
+      "status": "REVIEW",
+      "isSecurity": true,
+      "provisionClassification": "청구할",
+      "resultReviewDate": "2025-09-20T15:55:28.567Z",
+      "creatorDepartment": "인력관리부",
+      "contry": "",
+      "alarmData": [],
+      "description": "체결·공포된 바에 비밀과 또는 헌법에 보호할 바에 저작자·발명가·과학기술자와 추정된다. 사생활의.",
+      "enforcementDate": "2026/04/25",
+      "elecApprovalDate": "2026-07-24T02:25:19.145Z",
+      "commissionReport": "국내법과 헌법에 수.",
+      "contractHistory": [],
+      "creator": "당이강",
+      "contractAttachment": [],
+      "reviewRequestDate": "2025/09/21",
+      "lawyerList": [],
+      "reviewers": [
+        {
+          "reviewerId": 10003,
+          "telNumber": null,
+          "name": "김일지",
+          "position": "팀원",
+          "type": "REVIEWER",
+          "department": "법률도움부",
+          "employeeNo": "empId10003",
+          "email": "empId10003@XXX.COM",
+          "companyReg": null,
+          "memberId": 90003
         },
         {
-          "id": 3,
-          "contractId": 14951,
-          "userId": 101664,
-          "userName": "관리자",
-          "message": "3123123",
-          "createTime": "2025/9/13/오후 6:03",
-          "type": "COMMENT"
+          "reviewerId": 10002,
+          "telNumber": null,
+          "name": "이하민",
+          "position": "팀원",
+          "type": "REVIEWER",
+          "department": "법률도움부",
+          "employeeNo": "empId10002",
+          "email": "empId10002@XXX.COM",
+          "companyReg": null,
+          "memberId": 90002
         }
-      ]
-    ],
-    [
-      14952,
-      [
+      ],
+      "labelList": [],
+      "documentTargetList": [],
+      "creatorList": [
         {
-          "id": 1,
-          "contractId": 14952,
-          "userId": 101664,
-          "userName": "담당자",
-          "message": "개발 용역 계약 732 검토를 시작합니다.",
-          "createTime": "2025/09/13 00:13",
-          "type": "COMMENT"
+          "creator": "당이강",
+          "creatorDepartment": "인력관리부",
+          "positionNameAndRankName": "팀장[2]",
+          "creatorEmail": "3d73fy3cw3fr3i475@gmail.com",
+          "displayName": "당이강 팀장[2]",
+          "creatorPosition": "팀장"
         }
-      ]
-    ],
-    [
-      14953,
-      [
+      ],
+      "validEnd": "2026-05-02T10:44:55.342Z",
+      "relations": [],
+      "category": {
+        "text": "규정지침/매뉴얼",
+        "childId": null,
+        "type": "GUIDELINE",
+        "parentId": 65
+      },
+      "is_multi": true,
+      "createDate": "2025/09/20",
+      "viewcode": "2025/09/21-72086541",
+      "receptionDate": "2025-09-20T17:40:53.455Z",
+      "writeDocNo": "주식회사 홍주 6269",
+      "id": 10008
+    },
+    {
+      "approvalLine": "GRATER",
+      "positionNameAndRankName": "팀장[2]",
+      "isSigned": false,
+      "elecApprovalDocNo": "2MUQCgAKvx",
+      "creatorEmail": "3da3fl3i43cz3fm63@gmail.com",
+      "contractMemo": "사생활의 대하여 위하여 법률이 사후에 신체의 사후에 예술가의 있다..",
+      "creatorPosition": "팀장",
+      "validFrom": "2025-09-13T13:37:17.618Z",
+      "type": null,
+      "isMultiSignStep": true,
+      "signMemberList": [],
+      "opponent": "서진 중공업",
+      "directorsDate": "2024-10-20T14:48:10.898Z",
+      "isIndividualTypeAutoUpdate": true,
+      "isInOwner": true,
+      "documentReviewList": [],
+      "lastReviewDoc": {},
+      "replyDate": "2025-09-20T20:26:24.452Z",
+      "relatedDepartment": "한국 준혁",
+      "opponentList": [],
+      "isOpen": true,
+      "isTemp": true,
+      "name": "도피 비밀과 경우와",
+      "isDomesticOrAbroad": false,
+      "oppositeList": [],
+      "isCreateUser": true,
+      "actions": [],
+      "isAffiliateTrade": true,
+      "isContainSignStep": false,
+      "status": "APPROVAL_DEPT",
+      "isSecurity": false,
+      "provisionClassification": "무죄로",
+      "resultReviewDate": "2025-09-20T12:42:56.686Z",
+      "creatorDepartment": "전략기획부",
+      "contry": "",
+      "alarmData": [],
+      "description": "해당하는 때까지는 예술가의.",
+      "enforcementDate": "2026/04/22",
+      "elecApprovalDate": "2026-04-13T08:09:31.395Z",
+      "commissionReport": "아니한다. 저작자·발명가·과학기술자와 처벌받지 행위로 정하는 구성하지 국가는 기능을.",
+      "contractHistory": [],
+      "creator": "성시윤",
+      "contractAttachment": [],
+      "reviewRequestDate": "2025/09/20",
+      "lawyerList": [],
+      "reviewers": [
         {
-          "id": 1,
-          "contractId": 14953,
-          "userId": 101664,
-          "userName": "담당자",
-          "message": "컨설팅 계약 663 검토를 시작합니다.",
-          "createTime": "2025/09/13 00:13",
-          "type": "COMMENT"
-        }
-      ]
-    ],
-    [
-      14954,
-      [
+          "reviewerId": 10002,
+          "telNumber": null,
+          "name": "이하민",
+          "position": "팀원",
+          "type": "REVIEWER",
+          "department": "법률도움부",
+          "employeeNo": "empId10002",
+          "email": "empId10002@XXX.COM",
+          "companyReg": null,
+          "memberId": 90002
+        },
         {
-          "id": 1,
-          "contractId": 14954,
-          "userId": 101664,
-          "userName": "담당자",
-          "message": "유지보수 계약 18 검토를 시작합니다.",
-          "createTime": "2025/09/13 00:13",
-          "type": "COMMENT"
+          "reviewerId": 10003,
+          "telNumber": null,
+          "name": "김일지",
+          "position": "팀원",
+          "type": "REVIEWER",
+          "department": "법률도움부",
+          "employeeNo": "empId10003",
+          "email": "empId10003@XXX.COM",
+          "companyReg": null,
+          "memberId": 90003
         }
-      ]
-    ],
-    [
-      14955,
-      [
+      ],
+      "labelList": [],
+      "documentTargetList": [],
+      "creatorList": [
         {
-          "id": 1,
-          "contractId": 14955,
-          "userId": 101664,
-          "userName": "담당자",
-          "message": "신규 서비스 계약 445 검토를 시작합니다.",
-          "createTime": "2025/09/13 00:13",
-          "type": "COMMENT"
-        }
-      ]
-    ],
-    [
-      14961,
-      []
-    ],
-    [
-      14960,
-      []
-    ],
-    [
-      14959,
-      []
-    ],
-    [
-      14958,
-      []
-    ],
-    [
-      14957,
-      []
-    ],
-    [
-      14956,
-      []
-    ],
-    [
-      14966,
-      []
-    ],
-    [
-      14965,
-      []
-    ],
-    [
-      14964,
-      []
-    ],
-    [
-      14963,
-      []
-    ],
-    [
-      14962,
-      []
-    ],
-    [
-      14970,
-      [
+          "creator": "성시윤",
+          "creatorDepartment": "전략기획부",
+          "positionNameAndRankName": "팀장[2]",
+          "creatorEmail": "3da3fl3i43cz3fm63@gmail.com",
+          "displayName": "성시윤 팀장[2]",
+          "creatorPosition": "팀장"
+        },
         {
-          "id": 1,
-          "contractId": 14970,
-          "userId": 101664,
-          "userName": "관리자",
-          "message": "qqq",
-          "createTime": "2025/9/13/오전 12:35",
-          "type": "COMMENT"
+          "creator": "설강수",
+          "creatorDepartment": "여신관리심사부",
+          "positionNameAndRankName": "팀장[4]",
+          "creatorEmail": "3dc3fm3cw3fy.3d53ft3hn@naver.com",
+          "displayName": "설강수 팀장[4]",
+          "creatorPosition": "팀장"
         }
-      ]
-    ],
-    [
-      14969,
-      []
-    ],
-    [
-      14968,
-      []
-    ],
-    [
-      14967,
-      []
-    ],
-    [
-      14975,
-      []
-    ],
-    [
-      14974,
-      []
-    ],
-    [
-      14973,
-      []
-    ],
-    [
-      14972,
-      []
-    ],
-    [
-      14971,
-      []
-    ],
-    [
-      14976,
-      []
-    ],
-    [
-      14977,
-      []
-    ],
-    [
-      14982,
-      []
-    ],
-    [
-      14981,
-      []
-    ],
-    [
-      14980,
-      []
-    ],
-    [
-      14979,
-      []
-    ],
-    [
-      14978,
-      []
-    ],
-    [
-      14983,
-      []
-    ],
-    [
-      14984,
-      []
-    ],
-    [
-      14987,
-      []
-    ],
-    [
-      14986,
-      []
-    ],
-    [
-      14985,
-      []
-    ],
-    [
-      14990,
-      []
-    ],
-    [
-      14989,
-      []
-    ],
-    [
-      14988,
-      []
-    ],
-    [
-      14991,
-      []
-    ],
-    [
-      14992,
-      []
-    ],
-    [
-      14993,
-      []
-    ],
-    [
-      14995,
-      []
-    ],
-    [
-      14994,
-      []
-    ],
-    [
-      14996,
-      []
-    ],
-    [
-      14998,
-      []
-    ],
-    [
-      14997,
-      []
-    ],
-    [
-      14999,
-      []
-    ],
-    [
-      15000,
-      []
-    ]
+      ],
+      "validEnd": "2025-09-21T11:02:44.898Z",
+      "relations": [],
+      "category": {
+        "text": "매뉴얼",
+        "childId": null,
+        "type": "GUIDELINE",
+        "parentId": 65
+      },
+      "is_multi": true,
+      "createDate": "2025/09/21",
+      "viewcode": "2025/09/20-24729185",
+      "receptionDate": "2025-09-21T03:27:39.811Z",
+      "writeDocNo": "주식회사 선균 5893",
+      "id": 10009
+    },
+    {
+      "approvalLine": "LESS",
+      "positionNameAndRankName": "팀장[4]",
+      "isSigned": false,
+      "elecApprovalDocNo": "aMdTp0KgjR",
+      "creatorEmail": "3d53g33i43d13fx3i4_3cw3ft3i4@yahoo.co.kr",
+      "contractMemo": "유죄의 국내법과 거듭 창달에 일반적으로 염려가 법률이 의하여 무상으로.",
+      "creatorPosition": "팀장",
+      "validFrom": "2024-11-11T17:50:56.421Z",
+      "type": "TYPE2",
+      "isMultiSignStep": false,
+      "signMemberList": [],
+      "opponent": "주식회사 용휘",
+      "directorsDate": "2025-06-15T08:03:07.524Z",
+      "isIndividualTypeAutoUpdate": true,
+      "isInOwner": false,
+      "documentReviewList": [],
+      "lastReviewDoc": {},
+      "replyDate": "2025-09-20T11:26:23.725Z",
+      "relatedDepartment": "한국 호연",
+      "opponentList": [],
+      "isOpen": false,
+      "isTemp": false,
+      "name": "국내법과 범죄를 통신·방송의",
+      "isDomesticOrAbroad": true,
+      "oppositeList": [],
+      "isCreateUser": false,
+      "actions": [],
+      "isAffiliateTrade": true,
+      "isContainSignStep": true,
+      "status": "REVIEW",
+      "isSecurity": true,
+      "provisionClassification": "범죄를",
+      "resultReviewDate": "2025-09-21T05:10:17.904Z",
+      "creatorDepartment": "여신관리심사부",
+      "contry": "",
+      "alarmData": [],
+      "description": "행위로 경우와 유죄의 의하여 승인된 같은 계승·발전과 아니하며, 현행범인인 거듭.",
+      "enforcementDate": "2025/12/27",
+      "elecApprovalDate": "2025-10-06T16:02:31.148Z",
+      "commissionReport": "아니하는 유죄의 영장을 기능을 필요한 필요한 보호한다. 비밀과.",
+      "contractHistory": [
+        {
+          "type": "workflow",
+          "actionText": "승인 요청",
+          "creator": "방지음",
+          "createTime": "2025/09/20 22:04",
+          "isShowComment": true,
+          "comment": " [채상재/의뢰부서명님께 (요청 승인) 단계로 승인 요청 했습니다.]",
+          "id": 50000,
+          "creatorDept": "여신관리심사부",
+          "creatorPosition": "팀장",
+          "extraInfo": {
+            "historyType": "history_itm_contract"
+          }
+        }
+      ],
+      "creator": "방지음",
+      "contractAttachment": [],
+      "reviewRequestDate": "2025/09/21",
+      "lawyerList": [],
+      "reviewers": [
+        {
+          "reviewerId": 10001,
+          "telNumber": null,
+          "name": "박미라",
+          "position": "팀원",
+          "type": "REVIEWER",
+          "department": "법률도움부",
+          "employeeNo": "empId10001",
+          "email": "empId10001@XXX.COM",
+          "companyReg": null,
+          "memberId": 90001
+        },
+        {
+          "reviewerId": 10002,
+          "telNumber": null,
+          "name": "이하민",
+          "position": "팀원",
+          "type": "REVIEWER",
+          "department": "법률도움부",
+          "employeeNo": "empId10002",
+          "email": "empId10002@XXX.COM",
+          "companyReg": null,
+          "memberId": 90002
+        }
+      ],
+      "labelList": [],
+      "documentTargetList": [],
+      "creatorList": [
+        {
+          "creator": "방지음",
+          "creatorDepartment": "여신관리심사부",
+          "positionNameAndRankName": "팀장[4]",
+          "creatorEmail": "3d53g33i43d13fx3i4_3cw3ft3i4@yahoo.co.kr",
+          "displayName": "방지음 팀장[4]",
+          "creatorPosition": "팀장"
+        }
+      ],
+      "validEnd": "2026-07-08T12:34:43.646Z",
+      "relations": [],
+      "category": {
+        "text": "매뉴얼",
+        "childId": null,
+        "type": "GUIDELINE",
+        "parentId": 65
+      },
+      "is_multi": false,
+      "createDate": "2025/09/20",
+      "viewcode": "2025/09/20-98996243",
+      "receptionDate": "2025-09-21T07:53:45.810Z",
+      "writeDocNo": "주식회사 태정 7732",
+      "id": 10010
+    },
+    {
+      "approvalLine": "EQUAL",
+      "positionNameAndRankName": "팀장[2]",
+      "isSigned": false,
+      "elecApprovalDocNo": "wE5fOkQdUC",
+      "creatorEmail": "3d53fp3d73fy3hk_3d23fr3i4@hanmail.net",
+      "contractMemo": "또는 염려가 노력하여야 위하여.",
+      "creatorPosition": "팀장",
+      "validFrom": "2025-08-25T08:17:03.436Z",
+      "type": "TYPE1",
+      "isMultiSignStep": false,
+      "signMemberList": [],
+      "opponent": "한국 동하",
+      "directorsDate": "2025-04-15T18:07:10.900Z",
+      "isIndividualTypeAutoUpdate": true,
+      "isInOwner": false,
+      "documentReviewList": [],
+      "lastReviewDoc": {},
+      "replyDate": "2025-09-20T23:28:08.156Z",
+      "relatedDepartment": "한국 예주",
+      "opponentList": [],
+      "isOpen": false,
+      "isTemp": true,
+      "name": "창달에 사후에 법률로써",
+      "isDomesticOrAbroad": false,
+      "oppositeList": [],
+      "isCreateUser": false,
+      "actions": [],
+      "isAffiliateTrade": true,
+      "isContainSignStep": false,
+      "status": "APPROVAL_DEPT",
+      "isSecurity": false,
+      "provisionClassification": "청구할",
+      "resultReviewDate": "2025-09-21T04:51:54.565Z",
+      "creatorDepartment": "인사부",
+      "contry": "",
+      "alarmData": [],
+      "description": "법률에 해당하는 승인된 영장을 증거인멸의 염려가 장기 범하고 3년 경우와.",
+      "enforcementDate": "2026/09/11",
+      "elecApprovalDate": "2025-09-30T04:14:11.492Z",
+      "commissionReport": "비밀과 의무교육은 자유를 국내법과 필요한 소추되지 위하여 유죄의.",
+      "contractHistory": [
+        {
+          "type": "workflow",
+          "actionText": "승인 요청",
+          "creator": "나대진",
+          "createTime": "2025/09/21 08:26",
+          "isShowComment": true,
+          "comment": " [채상재/의뢰부서명님께 (요청 승인) 단계로 승인 요청 했습니다.]",
+          "id": 50000,
+          "creatorDept": "인사부",
+          "creatorPosition": "팀장",
+          "extraInfo": {
+            "historyType": "history_itm_contract"
+          }
+        }
+      ],
+      "creator": "나대진",
+      "contractAttachment": [],
+      "reviewRequestDate": "2025/09/20",
+      "lawyerList": [],
+      "reviewers": [
+        {
+          "reviewerId": 10003,
+          "telNumber": null,
+          "name": "김일지",
+          "position": "팀원",
+          "type": "REVIEWER",
+          "department": "법률도움부",
+          "employeeNo": "empId10003",
+          "email": "empId10003@XXX.COM",
+          "companyReg": null,
+          "memberId": 90003
+        }
+      ],
+      "labelList": [],
+      "documentTargetList": [],
+      "creatorList": [
+        {
+          "creator": "나대진",
+          "creatorDepartment": "인사부",
+          "positionNameAndRankName": "팀장[2]",
+          "creatorEmail": "3d53fp3d73fy3hk_3d23fr3i4@hanmail.net",
+          "displayName": "나대진 팀장[2]",
+          "creatorPosition": "팀장"
+        }
+      ],
+      "validEnd": "2026-06-29T17:56:05.782Z",
+      "relations": [],
+      "category": {
+        "text": "규정지침",
+        "childId": null,
+        "type": "GUIDELINE",
+        "parentId": 65
+      },
+      "is_multi": true,
+      "createDate": "2025/09/20",
+      "viewcode": "2025/09/21-40896896",
+      "receptionDate": "2025-09-20T19:02:21.654Z",
+      "writeDocNo": "정겸 공사 9690",
+      "id": 10011
+    },
+    {
+      "approvalLine": "GRATER",
+      "positionNameAndRankName": "팀장[4]",
+      "isSigned": false,
+      "elecApprovalDocNo": null,
+      "creatorEmail": "3d53fl3i43d83fm.3da3fy34@hanmail.net",
+      "contractMemo": "또는 보호를 창달에 범죄를 신체의 효력을.",
+      "creatorPosition": "팀장",
+      "validFrom": "2025-01-11T17:09:13.171Z",
+      "type": "TYPE1",
+      "isMultiSignStep": true,
+      "signMemberList": [],
+      "opponent": "주식회사 준효",
+      "directorsDate": "2025-06-14T21:29:41.596Z",
+      "isIndividualTypeAutoUpdate": true,
+      "isInOwner": true,
+      "documentReviewList": [],
+      "lastReviewDoc": {},
+      "replyDate": "2025-09-21T00:55:56.838Z",
+      "relatedDepartment": "산하 증권",
+      "opponentList": [],
+      "isOpen": true,
+      "isTemp": true,
+      "name": "확정될 영장을 있을",
+      "isDomesticOrAbroad": true,
+      "oppositeList": [],
+      "isCreateUser": false,
+      "actions": [],
+      "isAffiliateTrade": false,
+      "isContainSignStep": false,
+      "status": "FINISH",
+      "isSecurity": false,
+      "provisionClassification": "신문의",
+      "resultReviewDate": "2025-09-21T00:13:58.208Z",
+      "creatorDepartment": "인사부",
+      "contry": "",
+      "alarmData": [],
+      "description": "가진다. 자유를 아니한다. 증거인멸의.",
+      "enforcementDate": "2026/05/24",
+      "elecApprovalDate": "2026-04-16T08:55:48.796Z",
+      "commissionReport": "확정될 죄를 자유를 대하여 장기 저작자·발명가·과학기술자와 승인된 대하여 보호를.",
+      "contractHistory": [
+        {
+          "type": "workflow",
+          "actionText": "승인 요청",
+          "creator": "마나단",
+          "createTime": "2025/09/21 10:05",
+          "isShowComment": true,
+          "comment": " [채상재/의뢰부서명님께 (요청 승인) 단계로 승인 요청 했습니다.]",
+          "id": 50000,
+          "creatorDept": "인사부",
+          "creatorPosition": "팀장",
+          "extraInfo": {
+            "historyType": "history_itm_contract"
+          }
+        }
+      ],
+      "creator": "마나단",
+      "contractAttachment": [],
+      "reviewRequestDate": "2025/09/20",
+      "lawyerList": [],
+      "reviewers": [
+        {
+          "reviewerId": 10003,
+          "telNumber": null,
+          "name": "김일지",
+          "position": "팀원",
+          "type": "REVIEWER",
+          "department": "법률도움부",
+          "employeeNo": "empId10003",
+          "email": "empId10003@XXX.COM",
+          "companyReg": null,
+          "memberId": 90003
+        }
+      ],
+      "labelList": [],
+      "documentTargetList": [],
+      "creatorList": [
+        {
+          "creator": "마나단",
+          "creatorDepartment": "인사부",
+          "positionNameAndRankName": "팀장[4]",
+          "creatorEmail": "3d53fl3i43d83fm.3da3fy34@hanmail.net",
+          "displayName": "마나단 팀장[4]",
+          "creatorPosition": "팀장"
+        }
+      ],
+      "validEnd": "2025-12-19T01:52:06.241Z",
+      "relations": [],
+      "category": {
+        "text": "규정지침",
+        "childId": null,
+        "type": "GUIDELINE",
+        "parentId": 65
+      },
+      "is_multi": false,
+      "createDate": "2025/09/21",
+      "viewcode": "2025/09/21-91261877",
+      "receptionDate": "2025-09-21T05:48:17.284Z",
+      "writeDocNo": "종빈 증권 2912",
+      "id": 10012
+    },
+    {
+      "approvalLine": "LESS",
+      "positionNameAndRankName": "팀장[4]",
+      "isSigned": false,
+      "elecApprovalDocNo": "MaC2C3eav4",
+      "creatorEmail": "3cw3fr3i43d73ft51@yahoo.co.kr",
+      "contractMemo": "보호를 위하여 승인된 아니하는 법률로써 신체의 염려가 통신·방송의.",
+      "creatorPosition": "팀장",
+      "validFrom": "2025-03-04T02:09:50.223Z",
+      "type": "TYPE2",
+      "isMultiSignStep": false,
+      "signMemberList": [],
+      "opponent": "주식회사 동오",
+      "directorsDate": "2025-08-28T18:47:04.325Z",
+      "isIndividualTypeAutoUpdate": true,
+      "isInOwner": false,
+      "documentReviewList": [],
+      "lastReviewDoc": {},
+      "replyDate": "2025-09-21T09:36:23.418Z",
+      "relatedDepartment": "한국 효석",
+      "opponentList": [],
+      "isOpen": true,
+      "isTemp": true,
+      "name": "예술가의 사항은 아니한다.",
+      "isDomesticOrAbroad": true,
+      "oppositeList": [],
+      "isCreateUser": false,
+      "actions": [],
+      "isAffiliateTrade": false,
+      "isContainSignStep": false,
+      "status": "FINISH",
+      "isSecurity": false,
+      "provisionClassification": "법률이",
+      "resultReviewDate": "2025-09-20T22:02:29.810Z",
+      "creatorDepartment": "여신개인부",
+      "contry": "",
+      "alarmData": [],
+      "description": "아니한다. 권리는 사항은 무상으로.",
+      "enforcementDate": "2026/01/21",
+      "elecApprovalDate": "2026-01-05T10:35:14.889Z",
+      "commissionReport": "사항은 통신·방송의 국내법과 유죄의 일반적으로.",
+      "contractHistory": [
+        {
+          "type": "workflow",
+          "actionText": "승인 요청",
+          "creator": "부홍진",
+          "createTime": "2025/09/21 13:37",
+          "isShowComment": true,
+          "comment": " [채상재/의뢰부서명님께 (요청 승인) 단계로 승인 요청 했습니다.]",
+          "id": 50000,
+          "creatorDept": "여신개인부",
+          "creatorPosition": "팀장",
+          "extraInfo": {
+            "historyType": "history_itm_contract"
+          }
+        }
+      ],
+      "creator": "부홍진",
+      "contractAttachment": [],
+      "reviewRequestDate": "2025/09/21",
+      "lawyerList": [],
+      "reviewers": [
+        {
+          "reviewerId": 10001,
+          "telNumber": null,
+          "name": "박미라",
+          "position": "팀원",
+          "type": "REVIEWER",
+          "department": "법률도움부",
+          "employeeNo": "empId10001",
+          "email": "empId10001@XXX.COM",
+          "companyReg": null,
+          "memberId": 90001
+        },
+        {
+          "reviewerId": 10002,
+          "telNumber": null,
+          "name": "이하민",
+          "position": "팀원",
+          "type": "REVIEWER",
+          "department": "법률도움부",
+          "employeeNo": "empId10002",
+          "email": "empId10002@XXX.COM",
+          "companyReg": null,
+          "memberId": 90002
+        }
+      ],
+      "labelList": [],
+      "documentTargetList": [],
+      "creatorList": [
+        {
+          "creator": "부홍진",
+          "creatorDepartment": "여신개인부",
+          "positionNameAndRankName": "팀장[4]",
+          "creatorEmail": "3cw3fr3i43d73ft51@yahoo.co.kr",
+          "displayName": "부홍진 팀장[4]",
+          "creatorPosition": "팀장"
+        }
+      ],
+      "validEnd": "2026-05-31T16:05:44.774Z",
+      "relations": [],
+      "category": {
+        "text": "규정지침",
+        "childId": null,
+        "type": "GUIDELINE",
+        "parentId": 65
+      },
+      "is_multi": true,
+      "createDate": "2025/09/21",
+      "viewcode": "2025/09/20-20248940",
+      "receptionDate": "2025-09-20T13:53:20.777Z",
+      "writeDocNo": "주식회사 종찬 9329",
+      "id": 10013
+    }
   ],
-  "nextContractId": 15001
+  "labels": [
+    {
+      "id": 1001,
+      "name": "해석학",
+      "color": "#71a8d3",
+      "type": "PRIVATE"
+    },
+    {
+      "id": 1002,
+      "name": "무정부주의자",
+      "color": "#d8acfc",
+      "type": "PRIVATE"
+    },
+    {
+      "id": 1003,
+      "name": "비행사",
+      "color": "#45b4ec",
+      "type": "PRIVATE"
+    },
+    {
+      "id": 1004,
+      "name": "공기",
+      "color": "#f925d0",
+      "type": "PRIVATE"
+    },
+    {
+      "id": 1005,
+      "name": "주소",
+      "color": "#bc9f5e",
+      "type": "PRIVATE"
+    }
+  ],
+  "contractIdCounter": 10000,
+  "contractTimeCounter": 1757583990398,
+  "labelIdCounter": 1005,
+  "labelTimeCounter": 1757637990398
 }
